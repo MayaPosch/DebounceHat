@@ -1,4 +1,4 @@
-update=08/04/2017 12:31:54 PM
+update=2018/03/16 20:24:30
 version=1
 last_client=kicad
 [cvpcb]
@@ -59,3 +59,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=D:/Programs/KiCad/share/template/raspberrypi_hat/project_components/raspberrypi_hat
+LibName31=D:/Programs/KiCad/share/library/references
