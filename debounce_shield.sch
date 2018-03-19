@@ -618,9 +618,9 @@ Text GLabel 7850 3750 1    60   BiDi ~ 0
 IDSDA
 Text GLabel 10250 4650 3    60   Output ~ 0
 IDSCL
-Text GLabel 6550 1500 2    60   Input ~ 0
+Text GLabel 6800 1500 2    60   Input ~ 0
 IDSCL
-Text GLabel 6550 1750 2    60   BiDi ~ 0
+Text GLabel 6800 1750 2    60   BiDi ~ 0
 IDSDA
 $Comp
 L R R19
@@ -989,19 +989,19 @@ Wire Wire Line
 Wire Wire Line
 	10250 3950 10250 4650
 Wire Wire Line
-	6550 1500 6400 1500
+	6400 1500 6800 1500
 Wire Wire Line
 	6400 1500 6400 1550
 Wire Wire Line
 	6400 1550 6300 1550
 Wire Wire Line
-	6550 1750 6400 1750
+	6400 1750 6800 1750
 Wire Wire Line
 	6400 1750 6400 1650
 Wire Wire Line
 	6400 1650 6300 1650
 Wire Wire Line
-	5200 1000 5800 1000
+	5200 1000 6650 1000
 Connection ~ 5800 1000
 Wire Wire Line
 	4550 1650 5300 1650
@@ -1054,4 +1054,32 @@ Wire Wire Line
 Wire Wire Line
 	9500 1450 9500 1550
 Connection ~ 9500 1550
+$Comp
+L R R20
+U 1 1 5AAFD3AE
+P 6650 1250
+F 0 "R20" V 6730 1250 40  0000 C CNN
+F 1 "3.9k" V 6657 1251 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6580 1250 30  0001 C CNN
+F 3 "" H 6650 1250 30  0000 C CNN
+	1    6650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R21
+U 1 1 5AAFD443
+P 6650 2000
+F 0 "R21" V 6730 2000 40  0000 C CNN
+F 1 "3.9k" V 6657 2001 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6580 2000 30  0001 C CNN
+F 3 "" H 6650 2000 30  0000 C CNN
+	1    6650 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 1500
+Connection ~ 6650 1750
+Text GLabel 6850 2250 2    60   Input ~ 0
++3.3V
+Wire Wire Line
+	6850 2250 6650 2250
 $EndSCHEMATC
