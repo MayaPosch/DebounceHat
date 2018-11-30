@@ -1044,7 +1044,7 @@ P 2250 3000
 F 0 "U3" H 2600 3000 50  0000 C CNN
 F 1 "LTV-824" H 2250 3234 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 2050 2800 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2250 3000 50  0001 L CNN
+F 3 "" H 2250 3000 50  0001 L CNN
 	2    2250 3000
 	1    0    0    -1  
 $EndComp
@@ -1055,7 +1055,7 @@ P 2250 3450
 F 0 "U3" H 2600 3450 50  0000 C CNN
 F 1 "LTV-824" H 2250 3684 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 2050 3250 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2250 3450 50  0001 L CNN
+F 3 "" H 2250 3450 50  0001 L CNN
 	1    2250 3450
 	1    0    0    -1  
 $EndComp
@@ -1066,7 +1066,7 @@ P 2250 4350
 F 0 "U4" H 2600 4350 50  0000 C CNN
 F 1 "LTV-824" H 2250 4584 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 2050 4150 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2250 4350 50  0001 L CNN
+F 3 "" H 2250 4350 50  0001 L CNN
 	1    2250 4350
 	1    0    0    -1  
 $EndComp
@@ -1077,7 +1077,7 @@ P 2250 4800
 F 0 "U5" H 2600 4800 50  0000 C CNN
 F 1 "LTV-824" H 2250 5034 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 2050 4600 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2250 4800 50  0001 L CNN
+F 3 "" H 2250 4800 50  0001 L CNN
 	2    2250 4800
 	1    0    0    -1  
 $EndComp
@@ -1088,7 +1088,7 @@ P 2250 5300
 F 0 "U5" H 2600 5300 50  0000 C CNN
 F 1 "LTV-824" H 2250 5534 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 2050 5100 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2250 5300 50  0001 L CNN
+F 3 "" H 2250 5300 50  0001 L CNN
 	1    2250 5300
 	1    0    0    -1  
 $EndComp
@@ -1324,7 +1324,7 @@ P 2250 3900
 F 0 "U4" H 2600 3900 50  0000 C CNN
 F 1 "LTV-824" H 2250 4134 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 2050 3700 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2250 3900 50  0001 L CNN
+F 3 "" H 2250 3900 50  0001 L CNN
 	2    2250 3900
 	1    0    0    -1  
 $EndComp
