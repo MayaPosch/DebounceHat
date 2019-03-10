@@ -1,153 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic_Conn_01x06
+# 40106-debounce_shield-rescue
 #
-DEF Connector_Generic_Conn_01x06 J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Generic_Conn_01x06" 0 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 250 50 -350 1 1 10 f
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_LED
-#
-DEF Device_LED D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R_Small
-#
-DEF Device_R_Small R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Device_R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_SPARK_GAP
-#
-DEF Device_SPARK_GAP E 0 0 N Y 1 F N
-F0 "E" 0 80 50 H V C CNN
-F1 "Device_SPARK_GAP" 0 -75 50 H V C CNN
-F2 "" 0 -70 50 H I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- SG*
-$ENDFPLIST
-DRAW
-P 4 0 1 0 -100 25 -100 -25 -25 0 -100 25 N
-P 4 0 1 0 100 25 100 -25 25 0 100 25 N
-X ~ 1 -200 0 100 R 50 50 1 1 P
-X ~ 2 200 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Isolator_LTV-824
-#
-DEF Isolator_LTV-824 U 0 40 Y Y 2 F N
-F0 "U" -200 200 50 H V L CNN
-F1 "Isolator_LTV-824" 0 200 50 H V L CNN
-F2 "Package_DIP:DIP-8_W7.62mm" -200 -200 50 H I L CIN
-F3 "" 25 0 50 H I L CNN
-$FPLIST
- DIP*W7.62mm*
-$ENDFPLIST
-DRAW
-C -125 -100 5 0 1 0 N
-C -125 100 5 0 1 0 N
-S -200 150 200 -150 0 1 10 f
-P 2 0 1 10 -150 25 -100 25 N
-P 2 0 1 0 -125 25 -125 -100 N
-P 2 0 1 0 -125 25 -125 100 N
-P 2 0 1 10 -75 -25 -25 -25 N
-P 2 0 1 0 100 25 175 100 N
-P 2 0 1 0 175 -100 100 -25 F
-P 2 0 1 0 175 -100 200 -100 N
-P 2 0 1 0 175 100 200 100 N
-P 3 0 1 0 -200 100 -50 100 -50 25 N
-P 3 0 1 0 -50 40 -50 -100 -200 -100 N
-P 3 0 1 20 100 75 100 -75 100 -75 N
-P 4 0 1 10 -125 25 -150 -25 -100 -25 -125 25 N
-P 4 0 1 10 -50 -25 -75 25 -25 25 -50 -25 N
-P 5 0 1 0 5 -20 55 -20 40 -25 40 -15 55 -20 N
-P 5 0 1 0 5 20 55 20 40 15 40 25 55 20 N
-P 5 0 1 0 120 -65 140 -45 160 -85 120 -65 120 -65 F
-X ~ 1 -300 100 100 R 50 50 1 1 P
-X ~ 2 -300 -100 100 R 50 50 1 1 P
-X ~ 7 300 -100 100 L 50 50 1 1 P
-X ~ 8 300 100 100 L 50 50 1 1 P
-X ~ 3 -300 100 100 R 50 50 2 1 P
-X ~ 4 -300 -100 100 R 50 50 2 1 P
-X ~ 5 300 -100 100 L 50 50 2 1 P
-X ~ 6 300 100 100 L 50 50 2 1 P
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole_Pad
-#
-DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
-F0 "H" 0 250 50 H V C CNN
-F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*Pad*
-$ENDFPLIST
-DRAW
-C 0 50 50 0 1 50 N
-X 1 1 0 -100 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# debounce_shield-rescue_40106-debounce_shield-rescue
-#
-DEF debounce_shield-rescue_40106-debounce_shield-rescue U 0 40 Y N 6 F N
+DEF 40106-debounce_shield-rescue U 0 40 Y N 6 F N
 F0 "U" 100 150 50 H V L CNN
-F1 "debounce_shield-rescue_40106-debounce_shield-rescue" 50 -150 50 H V L CNN
+F1 "40106-debounce_shield-rescue" 50 -150 50 H V L CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -210,11 +68,11 @@ X VSS 7 -100 -150 0 U 60 40 6 2 W N
 ENDDRAW
 ENDDEF
 #
-# debounce_shield-rescue_C-debounce_shield-rescue
+# C-debounce_shield-rescue
 #
-DEF debounce_shield-rescue_C-debounce_shield-rescue C 0 10 N Y 1 F N
+DEF C-debounce_shield-rescue C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
-F1 "debounce_shield-rescue_C-debounce_shield-rescue" 6 -85 40 H V L CNN
+F1 "C-debounce_shield-rescue" 6 -85 40 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -230,11 +88,11 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# debounce_shield-rescue_CAT24C32-debounce_shield-rescue
+# CAT24C32-debounce_shield-rescue
 #
-DEF debounce_shield-rescue_CAT24C32-debounce_shield-rescue U 0 30 Y Y 1 F N
+DEF CAT24C32-debounce_shield-rescue U 0 30 Y Y 1 F N
 F0 "U" -350 350 50 H V C CNN
-F1 "debounce_shield-rescue_CAT24C32-debounce_shield-rescue" 250 350 50 H V C CNN
+F1 "CAT24C32-debounce_shield-rescue" 250 350 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -253,11 +111,35 @@ X WP 7 -500 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# debounce_shield-rescue_CONN_2-debounce_shield-rescue
+# CONN_12-debounce_shield-rescue
 #
-DEF debounce_shield-rescue_CONN_2-debounce_shield-rescue P 0 40 Y N 1 F N
+DEF CONN_12-debounce_shield-rescue P 0 40 Y N 1 F N
+F0 "P" -50 0 60 V V C CNN
+F1 "CONN_12-debounce_shield-rescue" 50 0 60 V V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -100 600 100 -600 0 1 0 N
+X P1 1 -350 550 250 R 50 50 1 1 P I
+X P10 10 -350 -350 250 R 50 50 1 1 P I
+X P11 11 -350 -450 250 R 50 50 1 1 P I
+X P12 12 -350 -550 250 R 50 50 1 1 P I
+X P2 2 -350 450 250 R 50 50 1 1 P I
+X P3 3 -350 350 250 R 50 50 1 1 P I
+X P4 4 -350 250 250 R 50 50 1 1 P I
+X P5 5 -350 150 250 R 50 50 1 1 P I
+X P6 6 -350 50 250 R 50 50 1 1 P I
+X P7 7 -350 -50 250 R 50 50 1 1 P I
+X P8 8 -350 -150 250 R 50 50 1 1 P I
+X P9 9 -350 -250 250 R 50 50 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# CONN_2-debounce_shield-rescue
+#
+DEF CONN_2-debounce_shield-rescue P 0 40 Y N 1 F N
 F0 "P" -50 0 40 V V C CNN
-F1 "debounce_shield-rescue_CONN_2-debounce_shield-rescue" 50 0 40 V V C CNN
+F1 "CONN_2-debounce_shield-rescue" 50 0 40 V V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -267,11 +149,11 @@ X PM 2 -350 -100 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# debounce_shield-rescue_CONN_3-debounce_shield-rescue
+# CONN_3-debounce_shield-rescue
 #
-DEF debounce_shield-rescue_CONN_3-debounce_shield-rescue K 0 40 Y N 1 F N
+DEF CONN_3-debounce_shield-rescue K 0 40 Y N 1 F N
 F0 "K" -50 0 50 V V C CNN
-F1 "debounce_shield-rescue_CONN_3-debounce_shield-rescue" 50 0 40 V V C CNN
+F1 "CONN_3-debounce_shield-rescue" 50 0 40 V V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -282,11 +164,11 @@ X P3 3 -350 -100 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# debounce_shield-rescue_DIODE-debounce_shield-rescue
+# DIODE-debounce_shield-rescue
 #
-DEF debounce_shield-rescue_DIODE-debounce_shield-rescue D 0 40 N N 1 F N
+DEF DIODE-debounce_shield-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 40 H V C CNN
-F1 "debounce_shield-rescue_DIODE-debounce_shield-rescue" 0 -100 40 H V C CNN
+F1 "DIODE-debounce_shield-rescue" 0 -100 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -301,11 +183,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# debounce_shield-rescue_GND-debounce_shield-rescue
+# GND-debounce_shield-rescue
 #
-DEF ~debounce_shield-rescue_GND-debounce_shield-rescue #PWR 0 0 Y Y 1 F P
+DEF ~GND-debounce_shield-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 0 30 H I C CNN
-F1 "debounce_shield-rescue_GND-debounce_shield-rescue" 0 -70 30 H I C CNN
+F1 "GND-debounce_shield-rescue" 0 -70 30 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -314,11 +196,11 @@ X GND 1 0 0 0 U 30 30 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# debounce_shield-rescue_R-debounce_shield-rescue
+# R-debounce_shield-rescue
 #
-DEF debounce_shield-rescue_R-debounce_shield-rescue R 0 0 N Y 1 F N
+DEF R-debounce_shield-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
-F1 "debounce_shield-rescue_R-debounce_shield-rescue" 7 1 40 V V C CNN
+F1 "R-debounce_shield-rescue" 7 1 40 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
 $FPLIST
@@ -335,11 +217,11 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# debounce_shield-rescue_REE-0505S-SamacSys_Parts
+# REE-0505S-SamacSys_Parts
 #
-DEF debounce_shield-rescue_REE-0505S-SamacSys_Parts PS 0 30 Y Y 1 F N
+DEF REE-0505S-SamacSys_Parts PS 0 30 Y Y 1 F N
 F0 "PS" 1050 300 50 H V L CNN
-F1 "debounce_shield-rescue_REE-0505S-SamacSys_Parts" 1050 200 50 H V L CNN
+F1 "REE-0505S-SamacSys_Parts" 1050 200 50 H V L CNN
 F2 "REE0505S" 1050 100 50 H I L CNN
 F3 "https://www.recom-power.com/pdf/Econoline/REE.pdf" 1050 0 50 H I L CNN
 F4 "Recom REE 1W Isolated DC-DC Converter Through Hole, Vin 4.5  5.5 V dc, Vout 5V dc, I/O isolation 1kV dc" 1050 -100 50 H I L CNN "Description"
@@ -361,11 +243,11 @@ X +VOUT 6 1200 -100 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# debounce_shield-rescue_RPi_GPIO-debounce_shield-rescue
+# RPi_GPIO-debounce_shield-rescue
 #
-DEF debounce_shield-rescue_RPi_GPIO-debounce_shield-rescue J 0 40 Y Y 1 F N
+DEF RPi_GPIO-debounce_shield-rescue J 0 40 Y Y 1 F N
 F0 "J" 750 250 60 H V C CNN
-F1 "debounce_shield-rescue_RPi_GPIO-debounce_shield-rescue" 750 150 60 H V C CNN
+F1 "RPi_GPIO-debounce_shield-rescue" 750 150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -413,11 +295,11 @@ X GND 9 -200 -400 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# debounce_shield-rescue_YC164-JR-0710KL-SamacSys_Parts
+# YC164-JR-0710KL-SamacSys_Parts
 #
-DEF debounce_shield-rescue_YC164-JR-0710KL-SamacSys_Parts R 0 30 Y Y 1 F N
+DEF YC164-JR-0710KL-SamacSys_Parts R 0 30 Y Y 1 F N
 F0 "R" 650 300 50 H V L CNN
-F1 "debounce_shield-rescue_YC164-JR-0710KL-SamacSys_Parts" 650 200 50 H V L CNN
+F1 "YC164-JR-0710KL-SamacSys_Parts" 650 200 50 H V L CNN
 F2 "YC164" 650 100 50 H I L CNN
 F3 "http://www.mouser.com/ds/2/447/PYu-YC_TC_group_51_RoHS_L_3-952628.pdf" 650 0 50 H I L CNN
 F4 "Res Array 0612 10K 5% 0.0625W T.C.200ppm Yageo CAY10 Series 10k 5% Isolated SMT Resistor Array, 4 Resistors, 1/16W total 1206 Package" 650 -100 50 H I L CNN "Description"
@@ -437,19 +319,6 @@ X 5 5 800 0 200 L 50 50 0 0 B
 X 6 6 800 -100 200 L 50 50 0 0 B
 X 7 7 800 -200 200 L 50 50 0 0 B
 X 8 8 800 -300 200 L 50 50 0 0 B
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name debounce_shield-rescue)(type Legacy)(uri ${KIPRJMOD}/debounce_shield-rescue.lib)(options "")(descr ""))
+)

@@ -4,7 +4,7 @@
 
 This project is a simple HAT extension board for Raspberry Pi-compatible single board computers (SBCs) that allows one to connect both power for the Raspberry Pi SBC and up to six switches or relays. These switches are fully debounced using an RC network and 40106 (4000 CMOS) inverse Schmitt trigger IC. 
 
-See the BOM (HTML) for the values of the individual passive components. These parts are all 0805 form factor or 1206. The 40106 is in SOIC-14 form factor, as is the CAT24C32 EEPROM IC. The LTV-824 optocouplers are in PDIP format.
+See the BOM (HTML) for the values of the individual passive components. The 74LVT04 is in SOIC-14 form factor, as is the CAT24C32 EEPROM IC. The LTV-824 optocouplers are in PDIP format.
 
 The six channels of the board are mapped to the following GPIO pins:
 
