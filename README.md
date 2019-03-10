@@ -1,10 +1,14 @@
 # Debounce HAT for Raspberry Pi #
 
-![Debounce HAT](debounce_shield.jpg)
+![Debounce HAT](debounce_shield_005.jpg)
 
-This project is a simple HAT extension board for Raspberry Pi-compatible single board computers (SBCs) that allows one to connect both power for the Raspberry Pi SBC and up to six switches or relays. These switches are fully debounced using an RC network and 40106 (4000 CMOS) inverse Schmitt trigger IC. 
+![Debounce HAT back](debounce_shield_005a.jpg)
 
-See the BOM (HTML) for the values of the individual passive components. The 74LVT04 is in SOIC-14 form factor, as is the CAT24C32 EEPROM IC. The LTV-824 optocouplers are in PDIP format.
+This project is a HAT extension board for Raspberry Pi-compatible single board computers (SBCs) that allows one to connect both power for the Raspberry Pi SBC and up to six switches or relays. These switches are fully debounced using an RC network and 74LVT04 inverse Schmitt trigger IC. 
+
+The inputs are opto-isolated, with protection against ESD up to about 2 kV (limit of the connector terminals). For improved protection, connect the designated mounting points to earth (PE). 
+
+See the HTML BOM for the values of the individual passive components. The 74LVT04 is in SOIC-14 form factor, as is the CAT24C32 EEPROM IC. The LTV-824 optocouplers are in PDIP format.
 
 The six channels of the board are mapped to the following GPIO pins:
 
@@ -17,6 +21,8 @@ The six channels of the board are mapped to the following GPIO pins:
 
 
 With 5 VDC connected to the two-pole terminal, power is provided to the connected Raspberry Pi board using the GPIO header's 5V pins.
+
+The inputs are driven with an external voltage in the range of 3 to 12V. With mechanical switches, a circuit has to be formed with the isolated DC header, or with an external power supply.
 
 
 ## Notice ##
