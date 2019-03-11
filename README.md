@@ -4,7 +4,7 @@
 
 ![Debounce HAT back](debounce_shield_005a.jpg)
 
-This project is a HAT extension board for Raspberry Pi-compatible single board computers (SBCs) that allows one to connect both power for the Raspberry Pi SBC and up to six switches or relays. These switches are fully debounced using an RC network and 74LVT04 inverse Schmitt trigger IC. 
+This project is a HAT extension board for Raspberry Pi-compatible single board computers (SBCs) that allows one to connect both power for the Raspberry Pi SBC and up to six switches or relays. These switches are fully debounced using an RC network and 74LVT04 inverting Schmitt trigger IC. 
 
 The inputs are opto-isolated, with protection against ESD up to about 2 kV (limit of the connector terminals). For improved protection, connect the designated mounting points to earth (PE). 
 
