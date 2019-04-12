@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>E:\Projects\debounce_shield\kicad\debounce_shield.sch</source>
-    <date>2019/03/10 18:11:33</date>
-    <tool>Eeschema (5.0.1)-rc2</tool>
+    <source>D:\Projects\debounce_shield\kicad\debounce_shield.sch</source>
+    <date>4/9/2019 9:56:59 PM</date>
+    <tool>Eeschema (5.1.0)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -758,19 +758,19 @@
   </libparts>
   <libraries>
     <library logical="Connector_Generic">
-      <uri>D:\Programs\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
     </library>
     <library logical="Device">
-      <uri>D:\Programs\KiCad\share\kicad\library/Device.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
     <library logical="Isolator">
-      <uri>D:\Programs\KiCad\share\kicad\library/Isolator.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library/Isolator.lib</uri>
     </library>
     <library logical="Mechanical">
-      <uri>D:\Programs\KiCad\share\kicad\library/Mechanical.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
     </library>
     <library logical="debounce_shield-rescue">
-      <uri>E:\Projects\debounce_shield\kicad/debounce_shield-rescue.lib</uri>
+      <uri>D:\Projects\debounce_shield\kicad/debounce_shield-rescue.lib</uri>
     </library>
   </libraries>
   <nets>

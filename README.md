@@ -4,11 +4,35 @@
 
 ![Debounce HAT back](debounce_shield_005a.jpg)
 
-This project is a HAT extension board for Raspberry Pi-compatible single board computers (SBCs) that allows one to connect both power for the Raspberry Pi SBC and up to six switches or relays. These switches are fully debounced using an RC network and 74LVT04 inverting Schmitt trigger IC. 
+The Debounce Hat provides three pairs of opto-isolated, debounced digital inputs to a Raspberry Pi-compatible single board computer (SBC).
+All inputs accept 3 - 12V with arbitrary polarity and can alternatively be connected to open-collector outputs or mechanical switches leveraging the on-board isolated 5V supply.
 
-The inputs are opto-isolated, with protection against ESD up to about 2 kV (limit of the connector terminals). For improved protection, connect the designated mounting points to earth (PE). 
+**Features:**
+  
 
-See the HTML BOM for the values of the individual passive components. The 74LVT04 is in SOIC-14 form factor, as is the CAT24C32 EEPROM IC. The LTV-824 optocouplers are in PDIP format.
+-  6 input channels (grouped as 3 pairs).
+-  Uncommitted inputs (100V channel-to-channel isolation).
+-  2kV AC isolation between pairs (connector limited).
+-  5kV AC (8kV HBM) opto-isolation to SBC logic.
+-  4kV DC isolated 5V 200mA supply (DCDC converter limited).
+-  Two screw mounting points for earth connection.
+-  Spark gap overvoltage protection on all isolated connections.
+-  2.5mm spring terminals for 0.2-1.0mm² wires (22-16AWG).
+-  16 mm PCB height with connectors.
+-  JST XH / 0.1" screw terminal for 5V/2A input for 0.14-0.5mm² wires (26-20AWG).
+-  Raspberry Pi-compatible mounting hole pattern.
+  
+**Typical Applications:**
+
+-  Digital inputs with ESD protection.
+-  Mechanical switch / interlock inputs.
+-  Isolated sensor interface.
+-  Isolated DC voltage sensing.
+
+  
+See the HTML BOM for the values of the individual passive components. The 74LVT04 is in SOIC-14 form factor, the CAT24C32 EEPROM IC in SOIC-8. The LTV-824 optocouplers are in PDIP format.
+
+## GPIO ##
 
 The six channels of the board are mapped to the following GPIO pins:
 
@@ -32,5 +56,3 @@ This board design is currently a work-in-progress and untested. I cannot accept 
 The EEPROM configuration is provided in the `eeprom_setting.txt` file, which can be processed with the `eepmake` tool, and flashed to the EEPROM with `eepflash`. Both tools can be found at [https://github.com/raspberrypi/hats/tree/master/eepromutils](https://github.com/raspberrypi/hats/tree/master/eepromutils "Raspberry Pi HATs Github"). The jumper (three pin header) allows for the EEPROM to be set to write-protected/write-enabled mode (WP, WE, respectively).
 
 **[Warning]** When not flashing the EEPROM, the EEPROM header should be set to Write-Protect (WP) mode by bridging the `[Protect]` and `[Write]` pins on the three-pin header to prevent any accidental rewriting of the EEPROM's contents.
-
-A full BOM will be added as well at some point in the future. For now the notes in the schematic should suffice.
