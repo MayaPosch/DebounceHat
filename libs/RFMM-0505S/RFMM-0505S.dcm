@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RFMM-0505S
+D Isolated DC/DC Converters 1W 5Vin 5Vout 200mA SIP7
+F https://www.recom-power.com/pdf/Econoline/RFMM.pdf
+$ENDCMP
+#
+#End Doc Library

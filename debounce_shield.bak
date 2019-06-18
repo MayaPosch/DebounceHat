@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:debounce_shield-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -96,23 +96,23 @@ $EndComp
 $Comp
 L debounce_shield-rescue:CONN_2-debounce_shield-rescue P2
 U 1 1 5AAAA266
-P 7350 2150
-F 0 "P2" V 7300 2150 40  0000 C CNN
-F 1 "CONN_2" V 7400 2150 40  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 7350 2150 60  0001 C CNN
-F 3 "" H 7350 2150 60  0001 C CNN
-	1    7350 2150
+P 7350 1300
+F 0 "P2" V 7300 1300 40  0000 C CNN
+F 1 "CONN_2" V 7400 1300 40  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 7350 1300 60  0001 C CNN
+F 3 "" H 7350 1300 60  0001 C CNN
+	1    7350 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L debounce_shield-rescue:GND-debounce_shield-rescue #PWR02
 U 1 1 5AAAA69C
-P 7850 2550
-F 0 "#PWR02" H 7850 2550 30  0001 C CNN
-F 1 "GND" H 7850 2480 30  0001 C CNN
-F 2 "" H 7850 2550 60  0001 C CNN
-F 3 "" H 7850 2550 60  0001 C CNN
-	1    7850 2550
+P 7850 1500
+F 0 "#PWR02" H 7850 1500 30  0001 C CNN
+F 1 "GND" H 7850 1430 30  0001 C CNN
+F 2 "" H 7850 1500 60  0001 C CNN
+F 3 "" H 7850 1500 60  0001 C CNN
+	1    7850 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -141,7 +141,6 @@ NoConn ~ 7600 3950
 NoConn ~ 7600 4050
 NoConn ~ 7600 4150
 NoConn ~ 7600 4250
-NoConn ~ 7600 4350
 NoConn ~ 7600 4750
 NoConn ~ 7600 4850
 NoConn ~ 7600 3250
@@ -164,12 +163,12 @@ Text GLabel 7250 3150 0    60   Output ~ 0
 $Comp
 L power:PWR_FLAG #FLG06
 U 1 1 5AAB0DD4
-P 8950 1950
-F 0 "#FLG06" H 8950 2045 30  0001 C CNN
-F 1 "PWR_FLAG" H 8950 2130 30  0000 C CNN
-F 2 "" H 8950 1950 60  0001 C CNN
-F 3 "" H 8950 1950 60  0001 C CNN
-	1    8950 1950
+P 9600 1150
+F 0 "#FLG06" H 9600 1245 30  0001 C CNN
+F 1 "PWR_FLAG" H 9600 1330 30  0000 C CNN
+F 2 "" H 9600 1150 60  0001 C CNN
+F 3 "" H 9600 1150 60  0001 C CNN
+	1    9600 1150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -232,7 +231,7 @@ U 1 1 5AAC3346
 P 4400 1500
 F 0 "R19" V 4480 1500 40  0000 C CNN
 F 1 "1k" V 4407 1501 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4330 1500 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 1500 30  0001 C CNN
 F 3 "" H 4400 1500 30  0000 C CNN
 	1    4400 1500
 	0    -1   -1   0   
@@ -268,13 +267,9 @@ Wire Wire Line
 Wire Wire Line
 	6200 5400 6200 5250
 Wire Wire Line
-	9700 2050 9700 3150
-Wire Wire Line
 	9700 3150 9500 3150
 Wire Wire Line
-	7850 2550 7850 2450
-Wire Wire Line
-	7850 2250 7700 2250
+	7850 1400 7700 1400
 Wire Wire Line
 	10200 3350 10200 3750
 Wire Wire Line
@@ -293,18 +288,12 @@ Wire Wire Line
 Connection ~ 10200 4550
 Wire Wire Line
 	9700 3250 9500 3250
-Connection ~ 9700 3150
 Wire Wire Line
 	7600 5050 7550 5050
 Wire Wire Line
 	7550 5050 7550 5350
 Wire Wire Line
 	7600 3550 7500 3550
-Wire Wire Line
-	7500 3550 7500 2450
-Wire Wire Line
-	7500 2450 7850 2450
-Connection ~ 7850 2450
 Wire Wire Line
 	7200 3450 7200 3650
 Wire Wire Line
@@ -384,31 +373,15 @@ Wire Wire Line
 Wire Wire Line
 	4000 2250 4000 2400
 Connection ~ 4650 2400
-$Comp
-L debounce_shield-rescue:DIODE-debounce_shield-rescue D7
-U 1 1 5AAC46BE
-P 8700 2050
-F 0 "D7" H 8700 2150 40  0000 C CNN
-F 1 "DIODE" H 8700 1950 40  0000 C CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8700 2050 60  0001 C CNN
-F 3 "" H 8700 2050 60  0000 C CNN
-	1    8700 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	7700 2050 7850 2050
-Wire Wire Line
-	8900 2050 8950 2050
-Wire Wire Line
-	8950 1950 8950 2050
-Connection ~ 8950 2050
+	7700 1200 7850 1200
 $Comp
 L debounce_shield-rescue:R-debounce_shield-rescue R20
 U 1 1 5AAFD3AE
 P 6100 1750
 F 0 "R20" V 6180 1750 40  0000 C CNN
 F 1 "3.9k" V 6107 1751 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6030 1750 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 1750 30  0001 C CNN
 F 3 "" H 6100 1750 30  0000 C CNN
 	1    6100 1750
 	1    0    0    -1  
@@ -419,7 +392,7 @@ U 1 1 5AAFD443
 P 6100 2500
 F 0 "R21" V 6180 2500 40  0000 C CNN
 F 1 "3.9k" V 6107 2501 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6030 2500 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 2500 30  0001 C CNN
 F 3 "" H 6100 2500 30  0000 C CNN
 	1    6100 2500
 	1    0    0    -1  
@@ -441,8 +414,6 @@ Wire Wire Line
 Wire Wire Line
 	9700 3150 9700 3250
 Wire Wire Line
-	7850 2450 7850 2250
-Wire Wire Line
 	7350 3150 7400 3150
 Wire Wire Line
 	7400 3150 7600 3150
@@ -463,16 +434,11 @@ Wire Wire Line
 Wire Wire Line
 	4650 2400 5250 2400
 Wire Wire Line
-	8950 2050 9700 2050
-Wire Wire Line
 	6100 2000 6250 2000
 Wire Wire Line
 	6100 2250 6250 2250
-Text GLabel 9850 2050 2    50   Output ~ 0
+Text GLabel 9850 1200 2    50   Output ~ 0
 +5V
-Wire Wire Line
-	9850 2050 9700 2050
-Connection ~ 9700 2050
 $Comp
 L debounce_shield-rescue:40106-debounce_shield-rescue U1
 U 4 1 5AA98F56
@@ -494,7 +460,7 @@ U 1 1 5AAA8BA1
 P 5250 3750
 F 0 "C2" H 5300 3850 50  0000 L CNN
 F 1 "100n" H 5300 3650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 3750 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 3750 60  0001 C CNN
 F 3 "" H 5250 3750 60  0000 C CNN
 	1    5250 3750
 	0    1    1    0   
@@ -505,7 +471,7 @@ U 1 1 5AAA8BF2
 P 5250 4350
 F 0 "C3" H 5300 4450 50  0000 L CNN
 F 1 "100n" H 5300 4250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 4350 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 4350 60  0001 C CNN
 F 3 "" H 5250 4350 60  0000 C CNN
 	1    5250 4350
 	0    1    1    0   
@@ -516,7 +482,7 @@ U 1 1 5AAA956B
 P 5250 3450
 F 0 "C1" H 5300 3550 50  0000 L CNN
 F 1 "100n" H 5300 3350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 3450 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 3450 60  0001 C CNN
 F 3 "" H 5250 3450 60  0000 C CNN
 	1    5250 3450
 	0    1    1    0   
@@ -527,7 +493,7 @@ U 1 1 5AAA95AC
 P 5250 4650
 F 0 "C4" H 5300 4750 50  0000 L CNN
 F 1 "100n" H 5300 4550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 4650 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 4650 60  0001 C CNN
 F 3 "" H 5250 4650 60  0000 C CNN
 	1    5250 4650
 	0    1    1    0   
@@ -538,7 +504,7 @@ U 1 1 5AAA95EF
 P 5250 5250
 F 0 "C5" H 5300 5350 50  0000 L CNN
 F 1 "100n" H 5300 5150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 5250 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 5250 60  0001 C CNN
 F 3 "" H 5250 5250 60  0000 C CNN
 	1    5250 5250
 	0    1    1    0   
@@ -549,7 +515,7 @@ U 1 1 5AAA9636
 P 5250 5550
 F 0 "C6" H 5300 5650 50  0000 L CNN
 F 1 "100n" H 5300 5450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 5550 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 5550 60  0001 C CNN
 F 3 "" H 5250 5550 60  0000 C CNN
 	1    5250 5550
 	0    1    1    0   
@@ -738,16 +704,12 @@ Connection ~ 3850 3900
 Wire Wire Line
 	3850 3900 3600 3900
 Wire Wire Line
-	4750 3700 4850 3700
-Wire Wire Line
 	4850 3700 4850 3800
 Wire Wire Line
 	4850 3800 4750 3800
 Wire Wire Line
 	4850 3700 4850 3450
 Connection ~ 4850 3700
-Wire Wire Line
-	4750 3600 4950 3600
 Wire Wire Line
 	4750 4600 4850 4600
 Wire Wire Line
@@ -950,31 +912,10 @@ Connection ~ 4950 3900
 Wire Wire Line
 	6200 3600 4950 3600
 Connection ~ 4950 3600
-$Comp
-L debounce_shield-rescue:REE-0505S-SamacSys_Parts PS1
-U 1 1 5DB5BD71
-P 3900 3000
-F 0 "PS1" H 3672 2954 50  0000 R CNN
-F 1 "REE-0505S" H 3672 3045 50  0000 R CNN
-F 2 "SamacSys_Parts:REE0505S" H 4950 3100 50  0001 L CNN
-F 3 "https://www.recom-power.com/pdf/Econoline/REE.pdf" H 4950 3000 50  0001 L CNN
-F 4 "Recom REE 1W Isolated DC-DC Converter Through Hole, Vin 4.5  5.5 V dc, Vout 5V dc, I/O isolation 1kV dc" H 4950 2900 50  0001 L CNN "Description"
-F 5 "10.7" H 4950 2800 50  0001 L CNN "Height"
-F 6 "RECOM Power" H 4950 2700 50  0001 L CNN "Manufacturer_Name"
-F 7 "REE-0505S" H 4950 2600 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "7773294P" H 4950 2500 50  0001 L CNN "RS Part Number"
-F 9 "http://uk.rs-online.com/web/p/products/7773294P" H 4950 2400 50  0001 L CNN "RS Price/Stock"
-F 10 "70425192" H 4950 2300 50  0001 L CNN "Allied_Number"
-F 11 "https://www.alliedelec.com/recom-power-inc-ree-0505s/70425192/" H 4950 2200 50  0001 L CNN "Allied Price/Stock"
-F 12 "919-REE-0505S" H 4950 2100 50  0001 L CNN "Mouser Part Number"
-F 13 "https://www.mouser.com/Search/Refine.aspx?Keyword=919-REE-0505S" H 4950 2000 50  0001 L CNN "Mouser Price/Stock"
-	1    3900 3000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1700 5250 2200 5250
 Wire Wire Line
-	1700 4200 2250 4200
+	1700 4200 2200 4200
 Wire Wire Line
 	1700 5150 2250 5150
 Wire Wire Line
@@ -984,61 +925,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 4750 2550 4750
 Wire Wire Line
-	1700 4400 2400 4400
-$Comp
-L debounce_shield-rescue:YC164-JR-0710KL-SamacSys_Parts R2
-U 1 1 5DBF78C4
-P 3950 4800
-F 0 "R2" H 4350 5065 50  0000 C CNN
-F 1 "YC164-JR-0710KL" H 4350 4974 50  0000 C CNN
-F 2 "SamacSys_Parts:YC164" H 4600 4900 50  0001 L CNN
-F 3 "http://www.mouser.com/ds/2/447/PYu-YC_TC_group_51_RoHS_L_3-952628.pdf" H 4600 4800 50  0001 L CNN
-F 4 "Res Array 0612 10K 5% 0.0625W T.C.200ppm Yageo CAY10 Series 10k 5% Isolated SMT Resistor Array, 4 Resistors, 1/16W total 1206 Package" H 4600 4700 50  0001 L CNN "Description"
-F 5 "YAGEO (PHYCOMP)" H 4600 4500 50  0001 L CNN "Manufacturer_Name"
-F 6 "YC164-JR-0710KL" H 4600 4400 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "6185359" H 4600 4300 50  0001 L CNN "RS Part Number"
-F 8 "http://uk.rs-online.com/web/p/products/6185359" H 4600 4200 50  0001 L CNN "RS Price/Stock"
-F 9 "YC164-JR-0710KL" H 4600 4100 50  0001 L CNN "Arrow Part Number"
-F 10 "https://www.arrow.com/en/products/yc164-jr-0710kl/yageo" H 4600 4000 50  0001 L CNN "Arrow Price/Stock"
-	1    3950 4800
-	1    0    0    1   
-$EndComp
-$Comp
-L debounce_shield-rescue:YC164-JR-0710KL-SamacSys_Parts R1
-U 1 1 5DBFB941
-P 3950 3900
-F 0 "R1" H 4350 4165 50  0000 C CNN
-F 1 "YC164-JR-0710KL" H 4350 4074 50  0000 C CNN
-F 2 "SamacSys_Parts:YC164" H 4600 4000 50  0001 L CNN
-F 3 "http://www.mouser.com/ds/2/447/PYu-YC_TC_group_51_RoHS_L_3-952628.pdf" H 4600 3900 50  0001 L CNN
-F 4 "Res Array 0612 10K 5% 0.0625W T.C.200ppm Yageo CAY10 Series 10k 5% Isolated SMT Resistor Array, 4 Resistors, 1/16W total 1206 Package" H 4600 3800 50  0001 L CNN "Description"
-F 5 "YAGEO (PHYCOMP)" H 4600 3600 50  0001 L CNN "Manufacturer_Name"
-F 6 "YC164-JR-0710KL" H 4600 3500 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "6185359" H 4600 3400 50  0001 L CNN "RS Part Number"
-F 8 "http://uk.rs-online.com/web/p/products/6185359" H 4600 3300 50  0001 L CNN "RS Price/Stock"
-F 9 "YC164-JR-0710KL" H 4600 3200 50  0001 L CNN "Arrow Part Number"
-F 10 "https://www.arrow.com/en/products/yc164-jr-0710kl/yageo" H 4600 3100 50  0001 L CNN "Arrow Price/Stock"
-	1    3950 3900
-	1    0    0    1   
-$EndComp
-$Comp
-L debounce_shield-rescue:YC164-JR-0710KL-SamacSys_Parts R3
-U 1 1 5DBFC65A
-P 3950 5700
-F 0 "R3" H 4350 5965 50  0000 C CNN
-F 1 "YC164-JR-0710KL" H 4350 5874 50  0000 C CNN
-F 2 "SamacSys_Parts:YC164" H 4600 5800 50  0001 L CNN
-F 3 "http://www.mouser.com/ds/2/447/PYu-YC_TC_group_51_RoHS_L_3-952628.pdf" H 4600 5700 50  0001 L CNN
-F 4 "Res Array 0612 10K 5% 0.0625W T.C.200ppm Yageo CAY10 Series 10k 5% Isolated SMT Resistor Array, 4 Resistors, 1/16W total 1206 Package" H 4600 5600 50  0001 L CNN "Description"
-F 5 "YAGEO (PHYCOMP)" H 4600 5400 50  0001 L CNN "Manufacturer_Name"
-F 6 "YC164-JR-0710KL" H 4600 5300 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "6185359" H 4600 5200 50  0001 L CNN "RS Part Number"
-F 8 "http://uk.rs-online.com/web/p/products/6185359" H 4600 5100 50  0001 L CNN "RS Price/Stock"
-F 9 "YC164-JR-0710KL" H 4600 5000 50  0001 L CNN "Arrow Part Number"
-F 10 "https://www.arrow.com/en/products/yc164-jr-0710kl/yageo" H 4600 4900 50  0001 L CNN "Arrow Price/Stock"
-	1    3950 5700
-	1    0    0    1   
-$EndComp
+	1700 4400 2350 4400
 $Comp
 L debounce_shield-rescue:GND-debounce_shield-rescue #PWR0103
 U 1 1 5DC0C062
@@ -1061,26 +948,24 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5DC6AF2A
-P 7850 1950
-F 0 "#FLG0101" H 7850 2045 30  0001 C CNN
-F 1 "PWR_FLAG" H 7850 2130 30  0000 C CNN
-F 2 "" H 7850 1950 60  0001 C CNN
-F 3 "" H 7850 1950 60  0001 C CNN
-	1    7850 1950
+P 7850 1100
+F 0 "#FLG0101" H 7850 1195 30  0001 C CNN
+F 1 "PWR_FLAG" H 7850 1280 30  0000 C CNN
+F 2 "" H 7850 1100 60  0001 C CNN
+F 3 "" H 7850 1100 60  0001 C CNN
+	1    7850 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 1950 7850 2050
-Connection ~ 7850 2050
-Wire Wire Line
-	7850 2050 8500 2050
+	7850 1100 7850 1200
+Connection ~ 7850 1200
 $Comp
 L debounce_shield-rescue:C-debounce_shield-rescue C7
 U 1 1 5DCA0BBB
 P 6800 6050
 F 0 "C7" H 6850 6150 50  0000 L CNN
 F 1 "100n" H 6850 5950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 6050 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6800 6050 60  0001 C CNN
 F 3 "" H 6800 6050 60  0000 C CNN
 	1    6800 6050
 	0    -1   -1   0   
@@ -1161,10 +1046,10 @@ F 3 "~" H 2100 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D1
+L Device:LED PWR1
 U 1 1 5DE61C49
 P 2100 3200
-F 0 "D1" H 2093 3416 50  0000 C CNN
+F 0 "PWR1" H 2093 3416 50  0000 C CNN
 F 1 "LED" H 2093 3325 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 2100 3200 50  0001 C CNN
 F 3 "~" H 2100 3200 50  0001 C CNN
@@ -1228,7 +1113,7 @@ U 1 1 5C92F796
 P 5550 2400
 F 0 "C8" H 5600 2500 50  0000 L CNN
 F 1 "100n" H 5600 2300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5550 2400 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5550 2400 60  0001 C CNN
 F 3 "" H 5550 2400 60  0000 C CNN
 	1    5550 2400
 	0    1    1    0   
@@ -1242,9 +1127,9 @@ Wire Wire Line
 Connection ~ 5950 1500
 Wire Wire Line
 	5950 1500 6100 1500
-Text Label 8150 2050 0    50   ~ 0
+Text Label 8000 1200 0    50   ~ 0
 +5V_in
-Text Label 9350 2050 0    50   ~ 0
+Text Label 9350 1200 0    50   ~ 0
 +5V
 $Comp
 L Mechanical:MountingHole_Pad H1
@@ -1587,17 +1472,250 @@ Wire Wire Line
 Wire Wire Line
 	2550 4750 2550 5000
 Wire Wire Line
-	2250 4200 2250 3650
-Wire Wire Line
-	1700 4100 2200 4100
-Wire Wire Line
-	2400 4400 2400 4100
-Wire Wire Line
-	1700 4300 2350 4300
-Wire Wire Line
 	2600 4550 2600 4500
 Wire Wire Line
 	2600 4500 2550 4500
 Wire Wire Line
 	2550 4350 2550 4600
+Wire Wire Line
+	2350 4300 2350 4400
+Wire Wire Line
+	2400 4300 2400 4100
+Wire Wire Line
+	1700 4300 2400 4300
+Wire Wire Line
+	2200 4100 2200 4200
+Wire Wire Line
+	2250 4100 2250 3650
+Wire Wire Line
+	1700 4100 2250 4100
+$Comp
+L RFMM-0505S:RFMM-0505S PS1
+U 1 1 5D077FE0
+P 3900 3000
+F 0 "PS1" H 4500 2650 50  0000 C CNN
+F 1 "RFMM-0505S" H 4500 2750 50  0000 C CNN
+F 2 "RFMM-0505S:RFMM0505S" H 4950 3100 50  0001 L CNN
+F 3 "https://www.recom-power.com/pdf/Econoline/RFMM.pdf" H 4950 3000 50  0001 L CNN
+F 4 "Isolated DC/DC Converters 1W 5Vin 5Vout 200mA SIP7" H 4950 2900 50  0001 L CNN "Description"
+F 5 "10" H 4950 2800 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 4950 2700 50  0001 L CNN "Manufacturer_Name"
+F 7 "RFMM-0505S" H 4950 2600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-RFMM-0505S" H 4950 2500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=919-RFMM-0505S" H 4950 2400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "1855530" H 4950 2300 50  0001 L CNN "RS Part Number"
+F 11 "https://uk.rs-online.com/web/p/products/1855530" H 4950 2200 50  0001 L CNN "RS Price/Stock"
+	1    3900 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L YC164-JR-07100RL:YC164-JR-07100RL RN1
+U 1 1 5D099998
+P 3950 3900
+F 0 "RN1" H 4350 4165 50  0000 C CNN
+F 1 "YC164-JR-07100RL" H 4350 4074 50  0000 C CNN
+F 2 "YC164-JR-07100RL:YC164JR07220RL" H 4600 4000 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-YC_TC164_51_RoHS_L_(3).pdf" H 4600 3900 50  0001 L CNN
+F 4 "YAGEO - YC164-JR-07100RL - RESISTOR ARRAY, ARV241 1206 100R" H 4600 3800 50  0001 L CNN "Description"
+F 5 "0" H 4600 3700 50  0001 L CNN "Height"
+F 6 "YAGEO (PHYCOMP)" H 4600 3600 50  0001 L CNN "Manufacturer_Name"
+F 7 "YC164-JR-07100RL" H 4600 3500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "603-YC164-JR-07100RL" H 4600 3400 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC164-JR-07100RL" H 4600 3300 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4600 3200 50  0001 L CNN "RS Part Number"
+F 11 "" H 4600 3100 50  0001 L CNN "RS Price/Stock"
+	1    3950 3900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4750 3700 4850 3700
+Wire Wire Line
+	4750 3600 4950 3600
+$Comp
+L YC164-JR-07100RL:YC164-JR-07100RL RN2
+U 1 1 5D0DBD50
+P 3950 4800
+F 0 "RN2" H 4350 5065 50  0000 C CNN
+F 1 "YC164-JR-07100RL" H 4350 4974 50  0000 C CNN
+F 2 "YC164-JR-07100RL:YC164JR07220RL" H 4600 4900 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-YC_TC164_51_RoHS_L_(3).pdf" H 4600 4800 50  0001 L CNN
+F 4 "YAGEO - YC164-JR-07100RL - RESISTOR ARRAY, ARV241 1206 100R" H 4600 4700 50  0001 L CNN "Description"
+F 5 "0" H 4600 4600 50  0001 L CNN "Height"
+F 6 "YAGEO (PHYCOMP)" H 4600 4500 50  0001 L CNN "Manufacturer_Name"
+F 7 "YC164-JR-07100RL" H 4600 4400 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "603-YC164-JR-07100RL" H 4600 4300 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC164-JR-07100RL" H 4600 4200 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4600 4100 50  0001 L CNN "RS Part Number"
+F 11 "" H 4600 4000 50  0001 L CNN "RS Price/Stock"
+	1    3950 4800
+	1    0    0    1   
+$EndComp
+$Comp
+L YC164-JR-07100RL:YC164-JR-07100RL RN3
+U 1 1 5D0DC6C0
+P 3950 5700
+F 0 "RN3" H 4350 5965 50  0000 C CNN
+F 1 "YC164-JR-07100RL" H 4350 5874 50  0000 C CNN
+F 2 "YC164-JR-07100RL:YC164JR07220RL" H 4600 5800 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-YC_TC164_51_RoHS_L_(3).pdf" H 4600 5700 50  0001 L CNN
+F 4 "YAGEO - YC164-JR-07100RL - RESISTOR ARRAY, ARV241 1206 100R" H 4600 5600 50  0001 L CNN "Description"
+F 5 "0" H 4600 5500 50  0001 L CNN "Height"
+F 6 "YAGEO (PHYCOMP)" H 4600 5400 50  0001 L CNN "Manufacturer_Name"
+F 7 "YC164-JR-07100RL" H 4600 5300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "603-YC164-JR-07100RL" H 4600 5200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC164-JR-07100RL" H 4600 5100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4600 5000 50  0001 L CNN "RS Part Number"
+F 11 "" H 4600 4900 50  0001 L CNN "RS Price/Stock"
+	1    3950 5700
+	1    0    0    1   
+$EndComp
+$Comp
+L DMG2305UX-7:DMG2305UX-7 Q2
+U 1 1 5D0DEED7
+P 8800 1100
+F 0 "Q2" V 9400 1200 50  0000 L CNN
+F 1 "DMG2305UX-7" V 9300 950 50  0000 L CNN
+F 2 "DMG2305UX-7:SOT96P240X100-3N" H 9250 1050 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/DMG2305UX.pdf" H 9250 950 50  0001 L CNN
+F 4 "MOSFET P-Ch 20V 5A Enhancement SOT23 Diodes Inc DMG2305UX-7 P-channel MOSFET Transistor, -3.3 A, -20 V, 3-Pin SOT-23" H 9250 850 50  0001 L CNN "Description"
+F 5 "1" H 9250 750 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 9250 650 50  0001 L CNN "Manufacturer_Name"
+F 7 "DMG2305UX-7" H 9250 550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-DMG2305UX-7" H 9250 450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMG2305UX-7" H 9250 350 50  0001 L CNN "Mouser Price/Stock"
+F 10 "8270452" H 9250 250 50  0001 L CNN "RS Part Number"
+F 11 "https://uk.rs-online.com/web/p/products/8270452" H 9250 150 50  0001 L CNN "RS Price/Stock"
+F 12 "70550282" H 9250 50  50  0001 L CNN "Allied_Number"
+F 13 "http://www.alliedelec.com/diodes-inc-dmg2305ux-7/70550282/" H 9250 -50 50  0001 L CNN "Allied Price/Stock"
+	1    8800 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DMMT5401-7:DMMT5401-7 Q1
+U 1 1 5D0E031E
+P 8600 2250
+F 0 "Q1" H 9050 2515 50  0000 C CNN
+F 1 "DMMT5401-7" H 9050 2424 50  0000 C CNN
+F 2 "DMMT5401-7:SOT95P275X110-6N" H 9350 2350 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30437.pdf" H 9350 2250 50  0001 L CNN
+F 4 "TRANS 2PNP 150V 0.2A SOT26" H 9350 2150 50  0001 L CNN "Description"
+F 5 "1.1" H 9350 2050 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 9350 1950 50  0001 L CNN "Manufacturer_Name"
+F 7 "DMMT5401-7" H 9350 1850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-DMMT5401-7" H 9350 1750 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMMT5401-7" H 9350 1650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 9350 1550 50  0001 L CNN "RS Part Number"
+F 11 "" H 9350 1450 50  0001 L CNN "RS Price/Stock"
+	1    8600 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5D10348E
+P 8150 2500
+F 0 "R1" H 8209 2546 50  0000 L CNN
+F 1 "10k 1%" H 8209 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8150 2500 50  0001 C CNN
+F 3 "~" H 8150 2500 50  0001 C CNN
+	1    8150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5D103FCD
+P 9100 2450
+F 0 "R2" H 9159 2496 50  0000 L CNN
+F 1 "47k 1%" H 9159 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9100 2450 50  0001 C CNN
+F 3 "~" H 9100 2450 50  0001 C CNN
+	1    9100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L debounce_shield-rescue:GND-debounce_shield-rescue #PWR05
+U 1 1 5D14979E
+P 8150 2700
+F 0 "#PWR05" H 8150 2700 30  0001 C CNN
+F 1 "GND" H 8150 2630 30  0001 C CNN
+F 2 "" H 8150 2700 60  0001 C CNN
+F 3 "" H 8150 2700 60  0001 C CNN
+	1    8150 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2700 8150 2600
+Wire Wire Line
+	8150 2600 9100 2600
+Wire Wire Line
+	9100 2600 9100 2550
+Connection ~ 8150 2600
+Wire Wire Line
+	8150 2400 8150 2300
+Wire Wire Line
+	8150 2300 8600 2300
+Wire Wire Line
+	8600 2300 8600 2250
+Wire Wire Line
+	8600 2300 8700 2300
+Wire Wire Line
+	8700 2300 8700 2250
+Connection ~ 8600 2300
+Wire Wire Line
+	8700 2300 8800 2300
+Wire Wire Line
+	8800 2300 8800 2250
+Connection ~ 8700 2300
+Wire Wire Line
+	8800 1350 8800 1300
+Wire Wire Line
+	8800 1300 9100 1300
+Wire Wire Line
+	9100 1300 9100 2350
+Wire Wire Line
+	8700 1200 9100 1200
+Wire Wire Line
+	8400 800  8350 800 
+Wire Wire Line
+	9000 800  9100 800 
+Wire Wire Line
+	9100 800  9100 1200
+Connection ~ 9100 1200
+Wire Wire Line
+	8350 800  8350 1200
+Connection ~ 8350 1200
+Wire Wire Line
+	8350 1200 8600 1200
+Wire Wire Line
+	7850 1200 8350 1200
+Wire Wire Line
+	7500 3550 7500 4350
+Wire Wire Line
+	7500 5050 7550 5050
+Connection ~ 7550 5050
+Wire Wire Line
+	7600 4350 7500 4350
+Connection ~ 7500 4350
+Wire Wire Line
+	7500 4350 7500 5050
+Wire Wire Line
+	7850 1500 7850 1400
+Wire Wire Line
+	9100 1200 9600 1200
+Wire Wire Line
+	9600 1150 9600 1200
+Connection ~ 9600 1200
+Wire Wire Line
+	9600 1200 9850 1200
+Text GLabel 9800 3150 2    50   Input ~ 0
++5V
+Wire Wire Line
+	9800 3150 9700 3150
+Connection ~ 9700 3150
+Wire Wire Line
+	8600 1200 8600 1350
+Wire Wire Line
+	8700 1200 8700 1350
+Wire Wire Line
+	8800 1100 8800 1300
+Connection ~ 8800 1300
 $EndSCHEMATC

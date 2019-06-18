@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMMT5401-7
+D TRANS 2PNP 150V 0.2A SOT26
+K
+F https://www.diodes.com/assets/Datasheets/ds30437.pdf
+$ENDCMP
+#
+#End Doc Library
