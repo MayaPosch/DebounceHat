@@ -1,8 +1,8 @@
 (fp_lib_table
-  (lib (name oshw)(type KiCad)(uri "$(KIPRJMOD)/oshw.pretty")(options "")(descr ""))
   (lib (name libs)(type KiCad)(uri ${KIPRJMOD}/libs)(options "")(descr ""))
   (lib (name DMG2305UX-7)(type Legacy)(uri ${KIPRJMOD}/libs/DMG2305/DMG2305UX-7.mod)(options "")(descr ""))
   (lib (name DMMT5401-7)(type Legacy)(uri ${KIPRJMOD}/libs/DMMT5401/DMMT5401-7.mod)(options "")(descr ""))
   (lib (name RFMM-0505S)(type Legacy)(uri ${KIPRJMOD}/libs/RFMM-0505S/RFMM-0505S.mod)(options "")(descr ""))
   (lib (name YC164-JR-07100RL)(type Legacy)(uri ${KIPRJMOD}/libs/YC164-JR-07100RL/YC164-JR-07100RL.mod)(options "")(descr ""))
+  (lib (name oshw)(type KiCad)(uri ${KIPRJMOD}/libs/oshw.pretty)(options "")(descr ""))
 )

@@ -1,11 +1,13 @@
 # Debounce HAT for Raspberry Pi #
 
-![Debounce HAT](debounce_shield_005.jpg)
+![Debounce HAT](debounce_shield_rev1_2_002.jpg)
 
-![Debounce HAT back](debounce_shield_005a.jpg)
+![Debounce HAT back](debounce_shield_rev1_2_002a.jpg)
 
 The Debounce Hat provides three pairs of opto-isolated, debounced digital inputs to a Raspberry Pi-compatible single board computer (SBC).
 All inputs accept 3 - 12V with arbitrary polarity and can alternatively be connected to open-collector outputs or mechanical switches leveraging the on-board isolated 5V supply.
+
+A project page for this board along with ordering information can be found on the [Nyantronics site](http://www.nyantronics.com/debounce_hat.php "Debounce HAT on Nyantronics site").
 
 **Features:**
   
@@ -51,8 +53,8 @@ The inputs are driven with an external voltage in the range of 3 to 12V. With me
 
 ## Notice ##
 
-This board design is currently a work-in-progress and untested. I cannot accept any responsibility for design flaws, but will gladly accept feedback and improvements.
+This board design is currently a work-in-progress and partially tested. I cannot accept any responsibility for design flaws, but will gladly accept feedback and improvements.
 
-The EEPROM configuration is provided in the `eeprom_setting.txt` file, which can be processed with the `eepmake` tool, and flashed to the EEPROM with `eepflash`. Both tools can be found at [https://github.com/raspberrypi/hats/tree/master/eepromutils](https://github.com/raspberrypi/hats/tree/master/eepromutils "Raspberry Pi HATs Github"). The jumper (three pin header) allows for the EEPROM to be set to write-protected/write-enabled mode (WP, WE, respectively).
+The EEPROM configuration is provided in the `eeprom_setting.txt` file, which can be processed with the `eepmake` tool, and flashed to the EEPROM with `eepflash`. Both tools can be found at [https://github.com/raspberrypi/hats/tree/master/eepromutils](https://github.com/raspberrypi/hats/tree/master/eepromutils "Raspberry Pi HATs Github"). The jumper (two pin header) allows for the EEPROM to be set to write-protected/write-enabled mode (WP, WE, respectively).
 
-**[Warning]** When not flashing the EEPROM, the EEPROM header should be set to Write-Protect (WP) mode by bridging the `[Protect]` and `[Write]` pins on the three-pin header to prevent any accidental rewriting of the EEPROM's contents.
+**[Note]** When not flashing the EEPROM, the EEPROM header should be set to Write-Protect (WP) mode by removing any electrical connection between the `[Write Enable]` pins on the two-pin header to prevent any accidental rewriting of the EEPROM's contents.

@@ -227,13 +227,13 @@ IDSDA
 $Comp
 L debounce_shield-rescue:R-debounce_shield-rescue R19
 U 1 1 5AAC3346
-P 4400 1500
-F 0 "R19" V 4480 1500 40  0000 C CNN
-F 1 "1k" V 4407 1501 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 1500 30  0001 C CNN
-F 3 "" H 4400 1500 30  0000 C CNN
-	1    4400 1500
-	0    -1   -1   0   
+P 4400 1850
+F 0 "R19" V 4480 1850 40  0000 C CNN
+F 1 "1k" V 4407 1851 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 1850 30  0001 C CNN
+F 3 "" H 4400 1850 30  0000 C CNN
+	1    4400 1850
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7600 3850 7200 3850
@@ -336,17 +336,11 @@ Wire Wire Line
 	5850 2250 5850 2150
 Wire Wire Line
 	5850 2150 5750 2150
-Wire Wire Line
-	4650 1500 5250 1500
 Connection ~ 5250 1500
-Wire Wire Line
-	4000 2150 4750 2150
 Wire Wire Line
 	4750 1750 4650 1750
 Wire Wire Line
 	4650 1750 4650 1850
-Wire Wire Line
-	4000 2400 4650 2400
 Connection ~ 5250 2400
 Wire Wire Line
 	4750 1950 4650 1950
@@ -354,24 +348,6 @@ Connection ~ 4650 1950
 Wire Wire Line
 	4750 1850 4650 1850
 Connection ~ 4650 1850
-$Comp
-L debounce_shield-rescue:CONN_3-debounce_shield-rescue K1
-U 1 1 5AAC3F88
-P 3650 2150
-F 0 "K1" V 3600 2150 50  0000 C CNN
-F 1 "CONN_3" V 3700 2150 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3650 2150 60  0001 C CNN
-F 3 "" H 3650 2150 60  0001 C CNN
-	1    3650 2150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4000 2050 4000 1500
-Wire Wire Line
-	4000 1500 4150 1500
-Wire Wire Line
-	4000 2250 4000 2400
-Connection ~ 4650 2400
 Wire Wire Line
 	7700 1200 7850 1200
 $Comp
@@ -427,7 +403,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 2400 5250 2350
 Wire Wire Line
-	4650 1950 4650 2400
+	4650 1950 4650 2250
 Wire Wire Line
 	4650 1850 4650 1950
 Wire Wire Line
@@ -1555,7 +1531,7 @@ U 1 1 5D0DC6C0
 P 3950 5700
 F 0 "RN3" H 4350 5965 50  0000 C CNN
 F 1 "YC164-JR-07100RL" H 4350 5874 50  0000 C CNN
-F 2 "YC164JR07220RL" H 4600 5800 50  0001 L CNN
+F 2 "YC164-JR-07100RL:YC164JR07220RL" H 4600 5800 50  0001 L CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-YC_TC164_51_RoHS_L_(3).pdf" H 4600 5700 50  0001 L CNN
 F 4 "YAGEO - YC164-JR-07100RL - RESISTOR ARRAY, ARV241 1206 100R" H 4600 5600 50  0001 L CNN "Description"
 F 5 "0" H 4600 5500 50  0001 L CNN "Height"
@@ -1722,4 +1698,31 @@ Wire Wire Line
 Wire Wire Line
 	7450 3950 7450 3150
 NoConn ~ 7600 3150
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5D4A9ED5
+P 4100 2250
+F 0 "J5" H 4018 1925 50  0000 C CNN
+F 1 "Conn_01x02" H 4018 2016 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4100 2250 50  0001 C CNN
+F 3 "~" H 4100 2250 50  0001 C CNN
+	1    4100 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 1500 4400 1600
+Wire Wire Line
+	4400 1500 5250 1500
+Wire Wire Line
+	4400 2100 4400 2150
+Connection ~ 4400 2150
+Wire Wire Line
+	4400 2150 4750 2150
+Wire Wire Line
+	4300 2150 4400 2150
+Wire Wire Line
+	4300 2250 4650 2250
+Connection ~ 4650 2250
+Wire Wire Line
+	4650 2250 4650 2400
 $EndSCHEMATC
