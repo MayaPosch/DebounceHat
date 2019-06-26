@@ -45,6 +45,9 @@ The six channels of the board are mapped to the following GPIO pins:
   5. BCM 22 (3)
   6. BCM 17 (0)
 
+In the below graphic those pins are marked in yellow (DBH n):
+
+![Debounce HAT GPIO](debounce_hat_gpio.jpg)
 
 With 5 VDC connected to the two-pole terminal, power is provided to the connected Raspberry Pi board using the GPIO header's 5V pins.
 
