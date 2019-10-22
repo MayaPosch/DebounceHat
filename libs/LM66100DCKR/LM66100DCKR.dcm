@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM66100DCKR
+D +/-6-V, Low IQ ideal diode with input polarity protection
+K
+F http://www.ti.com/lit/gpn/LM66100
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RLS-126
+D Fixed Inductors Line Inductors for RECOM Power Supply
+K
+F https://www.recom-power.com/pdf/Accessories/RLS-126.pdf
+$ENDCMP
+#
+#End Doc Library

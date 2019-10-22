@@ -5,4 +5,7 @@
   (lib (name RFMM-0505S)(type Legacy)(uri ${KIPRJMOD}/libs/RFMM-0505S/RFMM-0505S.mod)(options "")(descr ""))
   (lib (name YC164-JR-07100RL)(type Legacy)(uri ${KIPRJMOD}/libs/YC164-JR-07100RL/YC164-JR-07100RL.mod)(options "")(descr ""))
   (lib (name oshw)(type KiCad)(uri ${KIPRJMOD}/libs/oshw.pretty)(options "")(descr ""))
+  (lib (name RLS-126)(type Legacy)(uri ${KIPRJMOD}/libs/RLS-126/RLS-126.mod)(options "")(descr ""))
+  (lib (name RKZE-0505S)(type Legacy)(uri ${KIPRJMOD}/libs/RKZE-0505S/RKZE-0505S.mod)(options "")(descr ""))
+  (lib (name LM66100DCKR)(type Legacy)(uri ${KIPRJMOD}/libs/LM66100DCKR/LM66100DCKR.mod)(options "")(descr ""))
 )

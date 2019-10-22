@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RKZE-0505S
+D DC/DC Converter Isolated 5V to 5V out 1W
+F https://www.recom-power.com/pdf/Econoline/RKZE.pdf
+$ENDCMP
+#
+#End Doc Library

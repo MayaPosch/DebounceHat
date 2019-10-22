@@ -96,24 +96,13 @@ $EndComp
 $Comp
 L debounce_shield-rescue:CONN_2-debounce_shield-rescue P2
 U 1 1 5AAAA266
-P 8150 1300
-F 0 "P2" V 8100 1300 40  0000 C CNN
-F 1 "CONN_2" V 8200 1300 40  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 8150 1300 60  0001 C CNN
-F 3 "" H 8150 1300 60  0001 C CNN
-	1    8150 1300
+P 7800 1550
+F 0 "P2" V 7750 1550 40  0000 C CNN
+F 1 "CONN_2" V 7850 1550 40  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 7800 1550 60  0001 C CNN
+F 3 "" H 7800 1550 60  0001 C CNN
+	1    7800 1550
 	-1   0    0    1   
-$EndComp
-$Comp
-L debounce_shield-rescue:GND-debounce_shield-rescue #PWR02
-U 1 1 5AAAA69C
-P 8650 1500
-F 0 "#PWR02" H 8650 1500 30  0001 C CNN
-F 1 "GND" H 8650 1430 30  0001 C CNN
-F 2 "" H 8650 1500 60  0001 C CNN
-F 3 "" H 8650 1500 60  0001 C CNN
-	1    8650 1500
-	1    0    0    -1  
 $EndComp
 $Comp
 L debounce_shield-rescue:GND-debounce_shield-rescue #PWR03
@@ -162,12 +151,12 @@ Text GLabel 7250 3150 0    60   Output ~ 0
 $Comp
 L power:PWR_FLAG #FLG06
 U 1 1 5AAB0DD4
-P 10400 1150
-F 0 "#FLG06" H 10400 1245 30  0001 C CNN
-F 1 "PWR_FLAG" H 10400 1330 30  0000 C CNN
-F 2 "" H 10400 1150 60  0001 C CNN
-F 3 "" H 10400 1150 60  0001 C CNN
-	1    10400 1150
+P 10000 1400
+F 0 "#FLG06" H 10000 1495 30  0001 C CNN
+F 1 "PWR_FLAG" H 10000 1580 30  0000 C CNN
+F 2 "" H 10000 1400 60  0001 C CNN
+F 3 "" H 10000 1400 60  0001 C CNN
+	1    10000 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -268,8 +257,6 @@ Wire Wire Line
 Wire Wire Line
 	9700 3150 9500 3150
 Wire Wire Line
-	8650 1400 8500 1400
-Wire Wire Line
 	10200 3350 10200 3750
 Wire Wire Line
 	10200 4750 9500 4750
@@ -348,8 +335,6 @@ Connection ~ 5400 1600
 Wire Wire Line
 	5500 1500 5400 1500
 Connection ~ 5400 1500
-Wire Wire Line
-	8500 1200 8650 1200
 $Comp
 L debounce_shield-rescue:R-debounce_shield-rescue R20
 U 1 1 5AAFD3AE
@@ -412,7 +397,7 @@ Wire Wire Line
 	6850 1650 7000 1650
 Wire Wire Line
 	6850 1900 7000 1900
-Text GLabel 10650 1200 2    50   Output ~ 0
+Text GLabel 10250 1450 2    50   Output ~ 0
 +5V
 $Comp
 L debounce_shield-rescue:40106-debounce_shield-rescue U1
@@ -904,30 +889,27 @@ Wire Wire Line
 $Comp
 L debounce_shield-rescue:GND-debounce_shield-rescue #PWR0103
 U 1 1 5DC0C062
-P 4450 2450
-F 0 "#PWR0103" H 4450 2450 30  0001 C CNN
-F 1 "GND" H 4450 2380 30  0001 C CNN
-F 2 "" H 4450 2450 60  0001 C CNN
-F 3 "" H 4450 2450 60  0001 C CNN
-	1    4450 2450
+P 1350 1300
+F 0 "#PWR0103" H 1350 1300 30  0001 C CNN
+F 1 "GND" H 1350 1230 30  0001 C CNN
+F 2 "" H 1350 1300 60  0001 C CNN
+F 3 "" H 1350 1300 60  0001 C CNN
+	1    1350 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4300 2650 2    50   Input ~ 0
+Text GLabel 1100 900  0    50   Input ~ 0
 +5V
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5DC6AF2A
-P 8650 1100
-F 0 "#FLG0101" H 8650 1195 30  0001 C CNN
-F 1 "PWR_FLAG" H 8650 1280 30  0000 C CNN
-F 2 "" H 8650 1100 60  0001 C CNN
-F 3 "" H 8650 1100 60  0001 C CNN
-	1    8650 1100
+P 8400 1400
+F 0 "#FLG0101" H 8400 1495 30  0001 C CNN
+F 1 "PWR_FLAG" H 8400 1580 30  0000 C CNN
+F 2 "" H 8400 1400 60  0001 C CNN
+F 3 "" H 8400 1400 60  0001 C CNN
+	1    8400 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8650 1100 8650 1200
-Connection ~ 8650 1200
 $Comp
 L debounce_shield-rescue:C-debounce_shield-rescue C7
 U 1 1 5DCA0BBB
@@ -969,70 +951,36 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x06 J1
 U 1 1 5DDB8E91
-P 1500 2450
-F 0 "J1" H 1418 1925 50  0000 C CNN
-F 1 "Conn_01x06" H 1418 2016 50  0000 C CNN
-F 2 "SamacSys_Parts:GSL002C25006P" H 1500 2450 50  0001 C CNN
-F 3 "~" H 1500 2450 50  0001 C CNN
-	1    1500 2450
-	-1   0    0    -1  
+P 4100 1700
+F 0 "J1" H 4018 1175 50  0000 C CNN
+F 1 "Conn_01x06" H 4018 1266 50  0000 C CNN
+F 2 "SamacSys_Parts:GSL002C25006P" H 4100 1700 50  0001 C CNN
+F 3 "~" H 4100 1700 50  0001 C CNN
+	1    4100 1700
+	1    0    0    1   
 $EndComp
-Wire Wire Line
-	1700 2450 1800 2450
-Wire Wire Line
-	1700 2650 1800 2650
-Wire Wire Line
-	1800 2650 1800 2550
-Connection ~ 1800 2550
-Wire Wire Line
-	1800 2550 1750 2550
-Wire Wire Line
-	1800 2750 1800 2650
-Connection ~ 1800 2650
-Wire Wire Line
-	1700 2350 1800 2350
-Wire Wire Line
-	1800 2350 1800 2450
-Connection ~ 1800 2450
-Wire Wire Line
-	1700 2250 1800 2250
-Wire Wire Line
-	1800 2250 1800 2350
-Connection ~ 1800 2350
 $Comp
 L Device:R_Small R4
 U 1 1 5DE24A94
-P 2100 2250
-F 0 "R4" V 1904 2250 50  0000 C CNN
-F 1 "1.2k" V 1995 2250 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2100 2250 50  0001 C CNN
-F 3 "~" H 2100 2250 50  0001 C CNN
-	1    2100 2250
+P 3150 1700
+F 0 "R4" V 2954 1700 50  0000 C CNN
+F 1 "1.2k" V 3045 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3150 1700 50  0001 C CNN
+F 3 "~" H 3150 1700 50  0001 C CNN
+	1    3150 1700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED PWR1
 U 1 1 5DE61C49
-P 2100 2750
-F 0 "PWR1" H 2093 2966 50  0000 C CNN
-F 1 "LED" H 2093 2875 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 2100 2750 50  0001 C CNN
-F 3 "~" H 2100 2750 50  0001 C CNN
-	1    2100 2750
+P 2700 1700
+F 0 "PWR1" H 2693 1916 50  0000 C CNN
+F 1 "LED" H 2693 1825 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2700 1700 50  0001 C CNN
+F 3 "~" H 2700 1700 50  0001 C CNN
+	1    2700 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2000 2250 1900 2250
-Connection ~ 1800 2250
-Wire Wire Line
-	2200 2250 2350 2250
-Wire Wire Line
-	2350 2750 2250 2750
-Wire Wire Line
-	1950 2750 1800 2750
-Connection ~ 1800 2750
-Wire Wire Line
-	1700 2750 1800 2750
 Wire Wire Line
 	2550 4350 2700 4350
 $Comp
@@ -1090,9 +1038,9 @@ Wire Wire Line
 Connection ~ 6700 1150
 Wire Wire Line
 	6700 1150 6850 1150
-Text Label 8800 1200 0    50   ~ 0
+Text Label 8650 1450 2    50   ~ 0
 +5V_in
-Text Label 10150 1200 0    50   ~ 0
+Text Label 9750 1450 0    50   ~ 0
 +5V
 $Comp
 L Mechanical:MountingHole_Pad H1
@@ -1109,21 +1057,6 @@ Text GLabel 3950 6850 0    50   Input ~ 0
 PE
 Wire Wire Line
 	4100 6850 3950 6850
-Wire Wire Line
-	3950 7150 4100 7150
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5C853CA7
-P 4100 7050
-F 0 "H2" H 4200 7101 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4200 7010 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad" H 4100 7050 50  0001 C CNN
-F 3 "~" H 4100 7050 50  0001 C CNN
-	1    4100 7050
-	1    0    0    -1  
-$EndComp
-Text GLabel 3950 7150 0    50   Input ~ 0
-PE
 $Comp
 L Device:SPARK_GAP E3
 U 1 1 5C8A98AA
@@ -1138,23 +1071,23 @@ $EndComp
 $Comp
 L Device:SPARK_GAP E1
 U 1 1 5C8A9BF6
-P 1300 1750
-F 0 "E1" H 900 1800 50  0000 C CNN
-F 1 "SPARK_GAP" H 1300 1800 50  0000 C CNN
-F 2 "libs:SG1210" H 1300 1680 50  0001 C CNN
-F 3 "~" V 1300 1750 50  0001 C CNN
-	1    1300 1750
+P 1750 1850
+F 0 "E1" H 1350 1900 50  0000 C CNN
+F 1 "SPARK_GAP" H 1750 1900 50  0000 C CNN
+F 2 "libs:SG1210" H 1750 1780 50  0001 C CNN
+F 3 "~" V 1750 1850 50  0001 C CNN
+	1    1750 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:SPARK_GAP E2
 U 1 1 5C8AA067
-P 1300 2050
-F 0 "E2" H 900 2100 50  0000 C CNN
-F 1 "SPARK_GAP" H 1300 2100 50  0000 C CNN
-F 2 "libs:SG1210" H 1300 1980 50  0001 C CNN
-F 3 "~" V 1300 2050 50  0001 C CNN
-	1    1300 2050
+P 1750 1550
+F 0 "E2" H 1350 1600 50  0000 C CNN
+F 1 "SPARK_GAP" H 1750 1600 50  0000 C CNN
+F 2 "libs:SG1210" H 1750 1480 50  0001 C CNN
+F 3 "~" V 1750 1550 50  0001 C CNN
+	1    1750 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1315,20 +1248,20 @@ Wire Wire Line
 	1350 5250 1700 5250
 Connection ~ 1700 5250
 Wire Wire Line
-	1100 1750 1000 1750
+	1550 1550 1450 1550
 Wire Wire Line
-	1000 1750 1000 2050
+	1450 1550 1450 1850
 Wire Wire Line
-	1000 2050 1100 2050
+	1450 1850 1550 1850
 Text GLabel 800  5400 0    50   Input ~ 0
 PE
-Text GLabel 950  2150 0    50   Input ~ 0
+Text GLabel 1400 1950 0    50   Input ~ 0
 PE
 Wire Wire Line
-	1000 2050 1000 2150
+	1450 1850 1450 1950
 Wire Wire Line
-	1000 2150 950  2150
-Connection ~ 1000 2050
+	1450 1950 1400 1950
+Connection ~ 1450 1850
 Wire Wire Line
 	950  4100 850  4100
 Wire Wire Line
@@ -1447,25 +1380,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 4100 2250 4100
 $Comp
-L RFMM-0505S:RFMM-0505S PS1
-U 1 1 5D077FE0
-P 3700 2550
-F 0 "PS1" H 4300 2200 50  0000 C CNN
-F 1 "RFMM-0505S" H 4300 2300 50  0000 C CNN
-F 2 "RFMM-0505S:RFMM0505S" H 4750 2650 50  0001 L CNN
-F 3 "https://www.recom-power.com/pdf/Econoline/RFMM.pdf" H 4750 2550 50  0001 L CNN
-F 4 "Isolated DC/DC Converters 1W 5Vin 5Vout 200mA SIP7" H 4750 2450 50  0001 L CNN "Description"
-F 5 "10" H 4750 2350 50  0001 L CNN "Height"
-F 6 "RECOM Power" H 4750 2250 50  0001 L CNN "Manufacturer_Name"
-F 7 "RFMM-0505S" H 4750 2150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "919-RFMM-0505S" H 4750 2050 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=919-RFMM-0505S" H 4750 1950 50  0001 L CNN "Mouser Price/Stock"
-F 10 "1855530" H 4750 1850 50  0001 L CNN "RS Part Number"
-F 11 "https://uk.rs-online.com/web/p/products/1855530" H 4750 1750 50  0001 L CNN "RS Price/Stock"
-	1    3700 2550
-	-1   0    0    1   
-$EndComp
-$Comp
 L YC164-JR-07100RL:YC164-JR-07100RL RN1
 U 1 1 5D099998
 P 3950 3900
@@ -1527,123 +1441,27 @@ F 11 "" H 4600 4900 50  0001 L CNN "RS Price/Stock"
 	1    0    0    1   
 $EndComp
 $Comp
-L DMG2305UX-7:DMG2305UX-7 Q2
-U 1 1 5D0DEED7
-P 9600 1100
-F 0 "Q2" V 10200 1200 50  0000 L CNN
-F 1 "DMG2305UX-7" V 10100 950 50  0000 L CNN
-F 2 "DMG2305UX-7:SOT96P240X100-3N" H 10050 1050 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/DMG2305UX.pdf" H 10050 950 50  0001 L CNN
-F 4 "MOSFET P-Ch 20V 5A Enhancement SOT23 Diodes Inc DMG2305UX-7 P-channel MOSFET Transistor, -3.3 A, -20 V, 3-Pin SOT-23" H 10050 850 50  0001 L CNN "Description"
-F 5 "1" H 10050 750 50  0001 L CNN "Height"
-F 6 "Diodes Inc." H 10050 650 50  0001 L CNN "Manufacturer_Name"
-F 7 "DMG2305UX-7" H 10050 550 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "621-DMG2305UX-7" H 10050 450 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMG2305UX-7" H 10050 350 50  0001 L CNN "Mouser Price/Stock"
-F 10 "8270452" H 10050 250 50  0001 L CNN "RS Part Number"
-F 11 "https://uk.rs-online.com/web/p/products/8270452" H 10050 150 50  0001 L CNN "RS Price/Stock"
-F 12 "70550282" H 10050 50  50  0001 L CNN "Allied_Number"
-F 13 "http://www.alliedelec.com/diodes-inc-dmg2305ux-7/70550282/" H 10050 -50 50  0001 L CNN "Allied Price/Stock"
-	1    9600 1100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L DMMT5401-7:DMMT5401-7 Q1
-U 1 1 5D0E031E
-P 9400 2250
-F 0 "Q1" H 9850 2515 50  0000 C CNN
-F 1 "DMMT5401-7" H 9850 2424 50  0000 C CNN
-F 2 "DMMT5401-7:SOT95P275X110-6N" H 10150 2350 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30437.pdf" H 10150 2250 50  0001 L CNN
-F 4 "TRANS 2PNP 150V 0.2A SOT26" H 10150 2150 50  0001 L CNN "Description"
-F 5 "1.1" H 10150 2050 50  0001 L CNN "Height"
-F 6 "Diodes Inc." H 10150 1950 50  0001 L CNN "Manufacturer_Name"
-F 7 "DMMT5401-7" H 10150 1850 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "621-DMMT5401-7" H 10150 1750 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMMT5401-7" H 10150 1650 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 10150 1550 50  0001 L CNN "RS Part Number"
-F 11 "" H 10150 1450 50  0001 L CNN "RS Price/Stock"
-	1    9400 2250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R_Small R1
 U 1 1 5D10348E
-P 8950 2500
-F 0 "R1" H 9009 2546 50  0000 L CNN
-F 1 "10k 1%" H 9009 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8950 2500 50  0001 C CNN
-F 3 "~" H 8950 2500 50  0001 C CNN
-	1    8950 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 5D103FCD
-P 9900 2450
-F 0 "R2" H 9959 2496 50  0000 L CNN
-F 1 "47k 1%" H 9959 2405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9900 2450 50  0001 C CNN
-F 3 "~" H 9900 2450 50  0001 C CNN
-	1    9900 2450
-	1    0    0    -1  
+P 9900 1550
+F 0 "R1" V 10000 1500 50  0000 L CNN
+F 1 "10k 1%" V 10100 1400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9900 1550 50  0001 C CNN
+F 3 "~" H 9900 1550 50  0001 C CNN
+	1    9900 1550
+	0    1    1    0   
 $EndComp
 $Comp
 L debounce_shield-rescue:GND-debounce_shield-rescue #PWR05
 U 1 1 5D14979E
-P 8950 2700
-F 0 "#PWR05" H 8950 2700 30  0001 C CNN
-F 1 "GND" H 8950 2630 30  0001 C CNN
-F 2 "" H 8950 2700 60  0001 C CNN
-F 3 "" H 8950 2700 60  0001 C CNN
-	1    8950 2700
+P 8400 1800
+F 0 "#PWR05" H 8400 1800 30  0001 C CNN
+F 1 "GND" H 8400 1730 30  0001 C CNN
+F 2 "" H 8400 1800 60  0001 C CNN
+F 3 "" H 8400 1800 60  0001 C CNN
+	1    8400 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8950 2700 8950 2600
-Wire Wire Line
-	8950 2600 9900 2600
-Wire Wire Line
-	9900 2600 9900 2550
-Connection ~ 8950 2600
-Wire Wire Line
-	8950 2400 8950 2300
-Wire Wire Line
-	8950 2300 9400 2300
-Wire Wire Line
-	9400 2300 9400 2250
-Wire Wire Line
-	9400 2300 9500 2300
-Wire Wire Line
-	9500 2300 9500 2250
-Connection ~ 9400 2300
-Wire Wire Line
-	9500 2300 9600 2300
-Wire Wire Line
-	9600 2300 9600 2250
-Connection ~ 9500 2300
-Wire Wire Line
-	9600 1350 9600 1300
-Wire Wire Line
-	9600 1300 9900 1300
-Wire Wire Line
-	9900 1300 9900 2350
-Wire Wire Line
-	9500 1200 9900 1200
-Wire Wire Line
-	9200 800  9150 800 
-Wire Wire Line
-	9800 800  9900 800 
-Wire Wire Line
-	9900 800  9900 1200
-Connection ~ 9900 1200
-Wire Wire Line
-	9150 800  9150 1200
-Connection ~ 9150 1200
-Wire Wire Line
-	9150 1200 9400 1200
-Wire Wire Line
-	8650 1200 9150 1200
 Wire Wire Line
 	7500 3550 7500 4350
 Wire Wire Line
@@ -1655,26 +1473,14 @@ Connection ~ 7500 4350
 Wire Wire Line
 	7500 4350 7500 5050
 Wire Wire Line
-	8650 1500 8650 1400
+	10000 1400 10000 1450
 Wire Wire Line
-	9900 1200 10400 1200
-Wire Wire Line
-	10400 1150 10400 1200
-Connection ~ 10400 1200
-Wire Wire Line
-	10400 1200 10650 1200
+	10000 1450 10100 1450
 Text GLabel 9800 3150 2    50   Input ~ 0
 +5V
 Wire Wire Line
 	9800 3150 9700 3150
 Connection ~ 9700 3150
-Wire Wire Line
-	9400 1200 9400 1350
-Wire Wire Line
-	9500 1200 9500 1350
-Wire Wire Line
-	9600 1100 9600 1300
-Connection ~ 9600 1300
 Wire Wire Line
 	7600 3950 7450 3950
 Wire Wire Line
@@ -1708,94 +1514,199 @@ Connection ~ 5400 1900
 Wire Wire Line
 	5400 1900 5400 2050
 $Comp
-L Device:C_Small C?
+L Device:C_Small C9
 U 1 1 5D5AF961
-P 4100 2500
-F 0 "C?" H 4008 2454 50  0000 R CNN
-F 1 "10uF" H 4008 2545 50  0000 R CNN
-F 2 "" H 4100 2500 50  0001 C CNN
-F 3 "~" H 4100 2500 50  0001 C CNN
-	1    4100 2500
-	-1   0    0    1   
+P 1350 1050
+F 0 "C9" H 1258 1004 50  0000 R CNN
+F 1 "10uF" H 1258 1095 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1350 1050 50  0001 C CNN
+F 3 "~" H 1350 1050 50  0001 C CNN
+	1    1350 1050
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 2400 4100 2350
+	1350 900  1350 950 
+Connection ~ 1350 900 
 Wire Wire Line
-	3750 2350 3750 2450
-Wire Wire Line
-	3750 2450 3700 2450
-Wire Wire Line
-	3700 2550 3750 2550
-Wire Wire Line
-	3750 2550 3750 2650
-Wire Wire Line
-	4100 2650 4100 2600
-Wire Wire Line
-	4300 2650 4100 2650
+	1950 1550 2200 1550
 $Comp
-L Device:L_Small L?
-U 1 1 5D65AAAE
-P 3900 2650
-F 0 "L?" V 4000 2650 50  0000 C CNN
-F 1 "4.7uH" V 3850 2650 50  0000 C CNN
-F 2 "" H 3900 2650 50  0001 C CNN
-F 3 "~" H 3900 2650 50  0001 C CNN
-	1    3900 2650
-	0    -1   -1   0   
+L RKZE-0505S:RKZE-0505S PS1
+U 1 1 5DAEE4A5
+P 2200 900
+F 0 "PS1" H 2850 1165 50  0000 C CNN
+F 1 "RKZE-0505S" H 2850 1074 50  0000 C CNN
+F 2 "RKZE-0505S:RKZE0512SHP" H 3350 1000 50  0001 L CNN
+F 3 "https://www.recom-power.com/pdf/Econoline/RKZE.pdf" H 3350 900 50  0001 L CNN
+F 4 "DC/DC Converter Isolated 5V to 5V out 1W" H 3350 800 50  0001 L CNN "Description"
+F 5 "10.45" H 3350 700 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 3350 600 50  0001 L CNN "Manufacturer_Name"
+F 7 "RKZE-0505S" H 3350 500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-RKZE-0505S" H 3350 400 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=919-RKZE-0505S" H 3350 300 50  0001 L CNN "Mouser Price/Stock"
+F 10 "1809313P" H 3350 200 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/1809313P" H 3350 100 50  0001 L CNN "RS Price/Stock"
+	1    2200 900 
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 2350 4100 2350
-Wire Wire Line
-	4450 2450 4450 2350
-Wire Wire Line
-	4450 2350 4100 2350
-Connection ~ 4100 2350
 $Comp
-L Device:C_Small C?
-U 1 1 5D7FEF10
-P 3100 2800
-F 0 "C?" V 3150 2700 50  0000 C CNN
-F 1 "470pF 5kVDC" V 2950 2800 50  0000 C CNN
-F 2 "" H 3100 2800 50  0001 C CNN
-F 3 "~" H 3100 2800 50  0001 C CNN
-	1    3100 2800
-	0    -1   -1   0   
+L LM66100DCKR:LM66100DCKR D1
+U 1 1 5DAF0144
+P 8650 1450
+F 0 "D1" H 9200 1715 50  0000 C CNN
+F 1 "LM66100DCKR" H 9200 1624 50  0000 C CNN
+F 2 "LM66100DCKR:SOP65P210X110-6N" H 9600 1550 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/LM66100" H 9600 1450 50  0001 L CNN
+F 4 "+/-6-V, Low IQ ideal diode with input polarity protection" H 9600 1350 50  0001 L CNN "Description"
+F 5 "1.1" H 9600 1250 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 9600 1150 50  0001 L CNN "Manufacturer_Name"
+F 7 "LM66100DCKR" H 9600 1050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-LM66100DCKR" H 9600 950 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-LM66100DCKR" H 9600 850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 9600 750 50  0001 L CNN "RS Part Number"
+F 11 "" H 9600 650 50  0001 L CNN "RS Price/Stock"
+	1    8650 1450
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 2250 2350 2750
+	2200 1000 2050 1000
 Wire Wire Line
-	1800 2450 2450 2450
+	2050 1000 2050 1200
 Wire Wire Line
-	1800 2550 2500 2550
+	2200 1100 2200 1400
 Wire Wire Line
-	2450 2450 2450 2800
+	2200 1400 3850 1400
 Wire Wire Line
-	2450 2800 3000 2800
-Connection ~ 2450 2450
+	3850 1400 3850 1500
 Wire Wire Line
-	2450 2450 2500 2450
+	3850 1500 3900 1500
+Connection ~ 3850 1400
 Wire Wire Line
-	4100 2650 4000 2650
-Connection ~ 4100 2650
+	3850 1400 3900 1400
 Wire Wire Line
-	3800 2650 3750 2650
+	3850 1500 3850 1600
 Wire Wire Line
-	3750 2650 3750 2800
+	3850 1600 3900 1600
+Connection ~ 3850 1500
 Wire Wire Line
-	3750 2800 3200 2800
-Connection ~ 3750 2650
+	3500 1000 3750 1000
 Wire Wire Line
-	1900 1750 1900 2250
+	3750 1000 3750 1700
 Wire Wire Line
-	1500 1750 1900 1750
-Connection ~ 1900 2250
+	3750 1700 3900 1700
 Wire Wire Line
-	1900 2250 1800 2250
+	3750 1700 3750 1800
 Wire Wire Line
-	1750 2050 1750 2550
+	3750 1800 3900 1800
+Connection ~ 3750 1700
 Wire Wire Line
-	1500 2050 1750 2050
-Connection ~ 1750 2550
+	3900 1900 3750 1900
 Wire Wire Line
-	1750 2550 1700 2550
+	3750 1900 3750 1850
+Connection ~ 3750 1800
+NoConn ~ 3500 900 
+Wire Wire Line
+	2200 1400 2200 1550
+Connection ~ 2200 1400
+Wire Wire Line
+	3750 1700 3250 1700
+Wire Wire Line
+	3050 1700 2850 1700
+Wire Wire Line
+	2550 1700 2200 1700
+Wire Wire Line
+	2200 1700 2200 1550
+Connection ~ 2200 1550
+Wire Wire Line
+	1950 1850 3750 1850
+Connection ~ 3750 1850
+Wire Wire Line
+	3750 1850 3750 1800
+Text Notes 1300 700  0    50   ~ 0
+Recom\nRLS-126
+Text Notes 1450 1200 0    50   ~ 0
+50V\n10 uF\nMLCC
+$Comp
+L RLS-126:RLS-126 L1
+U 1 1 5DE038D5
+P 1350 900
+F 0 "L1" H 1750 1125 50  0000 C CNN
+F 1 "RLS-126" H 1750 1034 50  0000 C CNN
+F 2 "RLS-126:RLS126" H 2000 950 50  0001 L CNN
+F 3 "https://www.recom-power.com/pdf/Accessories/RLS-126.pdf" H 2000 850 50  0001 L CNN
+F 4 "Fixed Inductors Line Inductors for RECOM Power Supply" H 2000 750 50  0001 L CNN "Description"
+F 5 "2.6" H 2000 650 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 2000 550 50  0001 L CNN "Manufacturer_Name"
+F 7 "RLS-126" H 2000 450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-RLS-126" H 2000 350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=919-RLS-126" H 2000 250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "1855855" H 2000 150 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/1855855" H 2000 50  50  0001 L CNN "RS Price/Stock"
+	1    1350 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 1650 8650 1650
+Wire Wire Line
+	9750 1450 10000 1450
+Connection ~ 10000 1450
+Wire Wire Line
+	9800 1550 9750 1550
+Wire Wire Line
+	10000 1550 10100 1550
+Wire Wire Line
+	10100 1550 10100 1450
+Connection ~ 10100 1450
+Wire Wire Line
+	10100 1450 10250 1450
+Wire Wire Line
+	8400 1400 8400 1450
+Wire Wire Line
+	8650 1450 8400 1450
+Connection ~ 8400 1450
+Wire Wire Line
+	8400 1800 8400 1650
+Wire Wire Line
+	8400 1550 8400 1650
+Connection ~ 8400 1650
+Wire Wire Line
+	8400 1550 8650 1550
+Wire Wire Line
+	8600 1650 8600 1850
+Wire Wire Line
+	8600 1850 10100 1850
+Wire Wire Line
+	10100 1850 10100 1550
+Connection ~ 10100 1550
+$Comp
+L Device:C_Small C10
+U 1 1 5E08B45C
+P 8250 1550
+F 0 "C10" H 8100 1600 50  0000 L CNN
+F 1 "100 nF" H 8050 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8250 1550 50  0001 C CNN
+F 3 "~" H 8250 1550 50  0001 C CNN
+	1    8250 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 1650 8250 1650
+Connection ~ 8250 1650
+Wire Wire Line
+	8250 1650 8400 1650
+Wire Wire Line
+	8150 1450 8250 1450
+Connection ~ 8250 1450
+Wire Wire Line
+	8250 1450 8400 1450
+Wire Wire Line
+	1350 1150 1350 1200
+Wire Wire Line
+	1350 1200 2050 1200
+Connection ~ 1350 1200
+Wire Wire Line
+	1350 1200 1350 1300
+Wire Wire Line
+	2200 900  2150 900 
+Wire Wire Line
+	1100 900  1350 900 
 $EndSCHEMATC
