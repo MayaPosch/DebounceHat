@@ -7,4 +7,5 @@
   (lib (name RKZE-0505S)(type Legacy)(uri ${KIPRJMOD}/libs/RKZE-0505S/RKZE-0505S.lib)(options "")(descr ""))
   (lib (name LM66100DCKR)(type Legacy)(uri ${KIPRJMOD}/libs/LM66100DCKR/LM66100DCKR.lib)(options "")(descr ""))
   (lib (name RLS-126)(type Legacy)(uri ${KIPRJMOD}/libs/RLS-126/RLS-126.lib)(options "")(descr ""))
+  (lib (name 1989780)(type Legacy)(uri ${KIPRJMOD}/libs/Phoenix_Contact_1989780/1989780.lib)(options "")(descr ""))
 )

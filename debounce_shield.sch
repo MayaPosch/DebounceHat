@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "DebounceHAT"
+Date "2019-11-12"
+Rev "1.2"
+Comp "Nyantronics"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -24,6 +24,9 @@ F 0 "J2" H 8550 3400 60  0000 C CNN
 F 1 "RPi_GPIO" H 8550 3300 60  0000 C CNN
 F 2 "RPi_Hat:Pin_Header_Straight_2x20" H 7800 3150 60  0001 C CNN
 F 3 "" H 7800 3150 60  0000 C CNN
+F 4 "Adafruit" H 7800 3150 50  0001 C CNN "Manufacturer_Name"
+F 5 "1979 " H 7800 3150 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "485-1979 " H 7800 3150 50  0001 C CNN "Mouser Part Number"
 	1    7800 3150
 	1    0    0    -1  
 $EndComp
@@ -32,9 +35,10 @@ L debounce_shield-rescue:40106-debounce_shield-rescue U1
 U 1 1 5AA98E4C
 P 6700 3450
 F 0 "U1" H 6800 3600 50  0000 L CNN
-F 1 "74LVT04" H 6750 3300 50  0000 L CNN
+F 1 "74LV14D" H 6750 3300 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6700 3450 60  0001 C CNN
-F 3 "" H 6700 3450 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV14.pdf" H 6700 3450 60  0001 C CNN
+F 4 "771-LV14D112 " H 6700 3450 50  0001 C CNN "Mouser Part Number"
 	1    6700 3450
 	1    0    0    -1  
 $EndComp
@@ -43,9 +47,10 @@ L debounce_shield-rescue:40106-debounce_shield-rescue U1
 U 2 1 5AA98ED2
 P 6700 4350
 F 0 "U1" H 6800 4500 50  0000 L CNN
-F 1 "74LVT04" H 6750 4200 50  0000 L CNN
+F 1 "74LV14D" H 6750 4200 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6700 4350 60  0001 C CNN
-F 3 "" H 6700 4350 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV14.pdf" H 6700 4350 60  0001 C CNN
+F 4 "771-LV14D112 " H 6700 4350 50  0001 C CNN "Mouser Part Number"
 	2    6700 4350
 	1    0    0    -1  
 $EndComp
@@ -54,9 +59,10 @@ L debounce_shield-rescue:40106-debounce_shield-rescue U1
 U 3 1 5AA98EF1
 P 6700 5700
 F 0 "U1" H 6800 5850 50  0000 L CNN
-F 1 "74LVT04" H 6750 5550 50  0000 L CNN
+F 1 "74LV14D" H 6750 5550 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6700 5700 60  0001 C CNN
-F 3 "" H 6700 5700 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV14.pdf" H 6700 5700 60  0001 C CNN
+F 4 "771-LV14D112 " H 6700 5700 50  0001 C CNN "Mouser Part Number"
 	3    6700 5700
 	1    0    0    -1  
 $EndComp
@@ -65,9 +71,10 @@ L debounce_shield-rescue:40106-debounce_shield-rescue U1
 U 5 1 5AA98F79
 P 6700 4800
 F 0 "U1" H 6800 4950 50  0000 L CNN
-F 1 "74LVT04" H 6750 4650 50  0000 L CNN
+F 1 "74LV14D" H 6750 4650 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6700 4800 60  0001 C CNN
-F 3 "" H 6700 4800 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV14.pdf" H 6700 4800 60  0001 C CNN
+F 4 "771-LV14D112 " H 6700 4800 50  0001 C CNN "Mouser Part Number"
 	5    6700 4800
 	1    0    0    -1  
 $EndComp
@@ -76,9 +83,10 @@ L debounce_shield-rescue:40106-debounce_shield-rescue U1
 U 6 1 5AA98FF6
 P 6700 3900
 F 0 "U1" H 6800 4050 50  0000 L CNN
-F 1 "74LVT04" H 6750 3750 50  0000 L CNN
+F 1 "74LV14D" H 6750 3750 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6700 3900 60  0001 C CNN
-F 3 "" H 6700 3900 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV14.pdf" H 6700 3900 60  0001 C CNN
+F 4 "771-LV14D112 " H 6700 3900 50  0001 C CNN "Mouser Part Number"
 	6    6700 3900
 	1    0    0    -1  
 $EndComp
@@ -189,6 +197,7 @@ F 0 "U2" H 5650 1950 50  0000 C CNN
 F 1 "CAT24C32" H 6250 1950 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6000 1600 50  0001 C CNN
 F 3 "" H 6000 1600 50  0000 C CNN
+F 4 "698-CAT24C32WI-GT3 " H 6000 1600 50  0001 C CNN "Mouser Part Number"
 	1    6000 1600
 	1    0    0    -1  
 $EndComp
@@ -404,9 +413,10 @@ L debounce_shield-rescue:40106-debounce_shield-rescue U1
 U 4 1 5AA98F56
 P 6700 5250
 F 0 "U1" H 6800 5400 50  0000 L CNN
-F 1 "74LVT04" H 6750 5100 50  0000 L CNN
+F 1 "74LV14D" H 6750 5100 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6700 5250 60  0001 C CNN
-F 3 "" H 6700 5250 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV14.pdf" H 6700 5250 60  0001 C CNN
+F 4 "771-LV14D112 " H 6700 5250 50  0001 C CNN "Mouser Part Number"
 	4    6700 5250
 	1    0    0    -1  
 $EndComp
@@ -422,6 +432,9 @@ F 0 "C2" H 5300 3850 50  0000 L CNN
 F 1 "100n" H 5300 3650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 3750 60  0001 C CNN
 F 3 "" H 5250 3750 60  0000 C CNN
+F 4 "Wurth Elektronik " H 5250 3750 50  0001 C CNN "Manufacturer_Name"
+F 5 "885012206071 " H 5250 3750 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "710-885012206071 " H 5250 3750 50  0001 C CNN "Mouser Part Number"
 	1    5250 3750
 	0    1    1    0   
 $EndComp
@@ -433,6 +446,9 @@ F 0 "C3" H 5300 4450 50  0000 L CNN
 F 1 "100n" H 5300 4250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 4350 60  0001 C CNN
 F 3 "" H 5250 4350 60  0000 C CNN
+F 4 "Wurth Elektronik " H 5250 4350 50  0001 C CNN "Manufacturer_Name"
+F 5 "885012206071 " H 5250 4350 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "710-885012206071 " H 5250 4350 50  0001 C CNN "Mouser Part Number"
 	1    5250 4350
 	0    1    1    0   
 $EndComp
@@ -444,6 +460,9 @@ F 0 "C1" H 5300 3550 50  0000 L CNN
 F 1 "100n" H 5300 3350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 3450 60  0001 C CNN
 F 3 "" H 5250 3450 60  0000 C CNN
+F 4 "Wurth Elektronik " H 5250 3450 50  0001 C CNN "Manufacturer_Name"
+F 5 "885012206071 " H 5250 3450 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "710-885012206071 " H 5250 3450 50  0001 C CNN "Mouser Part Number"
 	1    5250 3450
 	0    1    1    0   
 $EndComp
@@ -455,6 +474,9 @@ F 0 "C4" H 5300 4750 50  0000 L CNN
 F 1 "100n" H 5300 4550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 4650 60  0001 C CNN
 F 3 "" H 5250 4650 60  0000 C CNN
+F 4 "Wurth Elektronik " H 5250 4650 50  0001 C CNN "Manufacturer_Name"
+F 5 "885012206071 " H 5250 4650 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "710-885012206071 " H 5250 4650 50  0001 C CNN "Mouser Part Number"
 	1    5250 4650
 	0    1    1    0   
 $EndComp
@@ -466,6 +488,9 @@ F 0 "C5" H 5300 5350 50  0000 L CNN
 F 1 "100n" H 5300 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 5250 60  0001 C CNN
 F 3 "" H 5250 5250 60  0000 C CNN
+F 4 "Wurth Elektronik " H 5250 5250 50  0001 C CNN "Manufacturer_Name"
+F 5 "885012206071 " H 5250 5250 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "710-885012206071 " H 5250 5250 50  0001 C CNN "Mouser Part Number"
 	1    5250 5250
 	0    1    1    0   
 $EndComp
@@ -477,6 +502,9 @@ F 0 "C6" H 5300 5650 50  0000 L CNN
 F 1 "100n" H 5300 5450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 5550 60  0001 C CNN
 F 3 "" H 5250 5550 60  0000 C CNN
+F 4 "Wurth Elektronik " H 5250 5550 50  0001 C CNN "Manufacturer_Name"
+F 5 "885012206071 " H 5250 5550 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "710-885012206071 " H 5250 5550 50  0001 C CNN "Mouser Part Number"
 	1    5250 5550
 	0    1    1    0   
 $EndComp
@@ -488,6 +516,7 @@ F 0 "U3" H 3650 3550 50  0000 C CNN
 F 1 "LTV-824" H 3300 3784 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3100 3350 50  0001 L CIN
 F 3 "" H 3300 3550 50  0001 L CNN
+F 4 "859-LTV-824 " H 3300 3550 50  0001 C CNN "Mouser Part Number"
 	2    3300 3550
 	1    0    0    -1  
 $EndComp
@@ -499,6 +528,7 @@ F 0 "U4" H 3650 4900 50  0000 C CNN
 F 1 "LTV-824" H 3300 5134 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3100 4700 50  0001 L CIN
 F 3 "" H 3300 4900 50  0001 L CNN
+F 4 "859-LTV-824 " H 3300 4900 50  0001 C CNN "Mouser Part Number"
 	1    3300 4900
 	1    0    0    -1  
 $EndComp
@@ -510,6 +540,7 @@ F 0 "U5" H 3650 5800 50  0000 C CNN
 F 1 "LTV-824" H 3300 6034 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3100 5600 50  0001 L CIN
 F 3 "" H 3300 5800 50  0001 L CNN
+F 4 "859-LTV-824 " H 3300 5800 50  0001 C CNN "Mouser Part Number"
 	1    3300 5800
 	1    0    0    -1  
 $EndComp
@@ -596,6 +627,7 @@ F 0 "R22" V 2604 3450 50  0000 C CNN
 F 1 "1.2k" V 2695 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2800 3450 50  0001 C CNN
 F 3 "~" H 2800 3450 50  0001 C CNN
+F 4 "71-CRCW12061K20JNEB " V 2800 3450 50  0001 C CNN "Mouser Part Number"
 	1    2800 3450
 	0    1    1    0   
 $EndComp
@@ -607,6 +639,7 @@ F 0 "U4" H 3650 4450 50  0000 C CNN
 F 1 "LTV-824" H 3300 4684 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3100 4250 50  0001 L CIN
 F 3 "" H 3300 4450 50  0001 L CNN
+F 4 "859-LTV-824 " H 3300 4450 50  0001 C CNN "Mouser Part Number"
 	2    3300 4450
 	1    0    0    -1  
 $EndComp
@@ -618,6 +651,7 @@ F 0 "R23" V 2604 3900 50  0000 C CNN
 F 1 "1.2k" V 2695 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2800 3900 50  0001 C CNN
 F 3 "~" H 2800 3900 50  0001 C CNN
+F 4 "71-CRCW12061K20JNEB " H 2800 3900 50  0001 C CNN "Mouser Part Number"
 	1    2800 3900
 	0    1    1    0   
 $EndComp
@@ -629,6 +663,7 @@ F 0 "R24" V 2604 4350 50  0000 C CNN
 F 1 "1.2k" V 2695 4350 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2800 4350 50  0001 C CNN
 F 3 "~" H 2800 4350 50  0001 C CNN
+F 4 "71-CRCW12061K20JNEB " H 2800 4350 50  0001 C CNN "Mouser Part Number"
 	1    2800 4350
 	0    1    1    0   
 $EndComp
@@ -640,6 +675,7 @@ F 0 "R25" V 2604 4800 50  0000 C CNN
 F 1 "1.2k" V 2695 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2800 4800 50  0001 C CNN
 F 3 "~" H 2800 4800 50  0001 C CNN
+F 4 "71-CRCW12061K20JNEB " H 2800 4800 50  0001 C CNN "Mouser Part Number"
 	1    2800 4800
 	0    1    1    0   
 $EndComp
@@ -755,6 +791,7 @@ F 0 "U5" H 3650 5350 50  0000 C CNN
 F 1 "LTV-824" H 3300 5584 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3100 5150 50  0001 L CIN
 F 3 "" H 3300 5350 50  0001 L CNN
+F 4 "859-LTV-824 " H 3300 5350 50  0001 C CNN "Mouser Part Number"
 	2    3300 5350
 	1    0    0    -1  
 $EndComp
@@ -766,6 +803,7 @@ F 0 "U3" H 3650 4000 50  0000 C CNN
 F 1 "LTV-824" H 3300 4234 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3100 3800 50  0001 L CIN
 F 3 "" H 3300 4000 50  0001 L CNN
+F 4 "859-LTV-824 " H 3300 4000 50  0001 C CNN "Mouser Part Number"
 	1    3300 4000
 	1    0    0    -1  
 $EndComp
@@ -777,6 +815,7 @@ F 0 "R26" V 2604 5250 50  0000 C CNN
 F 1 "1.2k" V 2695 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2800 5250 50  0001 C CNN
 F 3 "~" H 2800 5250 50  0001 C CNN
+F 4 "71-CRCW12061K20JNEB " H 2800 5250 50  0001 C CNN "Mouser Part Number"
 	1    2800 5250
 	0    1    1    0   
 $EndComp
@@ -875,8 +914,6 @@ Connection ~ 4950 3600
 Wire Wire Line
 	1700 5250 2200 5250
 Wire Wire Line
-	1700 4200 2200 4200
-Wire Wire Line
 	1700 5150 2250 5150
 Wire Wire Line
 	1700 5050 2350 5050
@@ -918,6 +955,9 @@ F 0 "C7" H 6850 6150 50  0000 L CNN
 F 1 "100n" H 6850 5950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6800 6050 60  0001 C CNN
 F 3 "" H 6800 6050 60  0000 C CNN
+F 4 "Wurth Elektronik " H 6800 6050 50  0001 C CNN "Manufacturer_Name"
+F 5 "885012206071 " H 6800 6050 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "710-885012206071 " H 6800 6050 50  0001 C CNN "Mouser Part Number"
 	1    6800 6050
 	0    -1   -1   0   
 $EndComp
@@ -930,9 +970,9 @@ $Comp
 L Connector_Generic:Conn_01x06 J4
 U 1 1 5DDA7D53
 P 1500 5050
-F 0 "J4" H 1418 4525 50  0000 C CNN
+F 0 "J4" H 1500 5450 50  0000 C CNN
 F 1 "Conn_01x06" H 1500 5350 50  0000 C CNN
-F 2 "SamacSys_Parts:GSL002C25006P" H 1500 5050 50  0001 C CNN
+F 2 "GSL002C-2.50-06P:GSL002C25006P" H 1500 5050 50  0001 C CNN
 F 3 "~" H 1500 5050 50  0001 C CNN
 	1    1500 5050
 	-1   0    0    1   
@@ -943,7 +983,7 @@ U 1 1 5DDB843A
 P 1500 4400
 F 0 "J3" H 1418 3875 50  0000 C CNN
 F 1 "Conn_01x06" H 1418 3966 50  0000 C CNN
-F 2 "SamacSys_Parts:GSL002C25006P" H 1500 4400 50  0001 C CNN
+F 2 "GSL002C-2.50-06P:GSL002C25006P" H 1500 4400 50  0001 C CNN
 F 3 "~" H 1500 4400 50  0001 C CNN
 	1    1500 4400
 	-1   0    0    1   
@@ -954,7 +994,7 @@ U 1 1 5DDB8E91
 P 4100 1700
 F 0 "J1" H 4018 1175 50  0000 C CNN
 F 1 "Conn_01x06" H 4018 1266 50  0000 C CNN
-F 2 "SamacSys_Parts:GSL002C25006P" H 4100 1700 50  0001 C CNN
+F 2 "GSL002C-2.50-06P:GSL002C25006P" H 4100 1700 50  0001 C CNN
 F 3 "~" H 4100 1700 50  0001 C CNN
 	1    4100 1700
 	1    0    0    1   
@@ -967,6 +1007,7 @@ F 0 "R4" V 2954 1700 50  0000 C CNN
 F 1 "1.2k" V 3045 1700 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3150 1700 50  0001 C CNN
 F 3 "~" H 3150 1700 50  0001 C CNN
+F 4 "71-CRCW12061K20JNEB " V 3150 1700 50  0001 C CNN "Mouser Part Number"
 	1    3150 1700
 	0    1    1    0   
 $EndComp
@@ -978,6 +1019,7 @@ F 0 "PWR1" H 2693 1916 50  0000 C CNN
 F 1 "LED" H 2693 1825 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 2700 1700 50  0001 C CNN
 F 3 "~" H 2700 1700 50  0001 C CNN
+F 4 "604-AP2012HD " H 2700 1700 50  0001 C CNN "Mouser Part Number"
 	1    2700 1700
 	1    0    0    -1  
 $EndComp
@@ -991,6 +1033,7 @@ F 0 "R27" V 2604 5700 50  0000 C CNN
 F 1 "1.2k" V 2695 5700 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2800 5700 50  0001 C CNN
 F 3 "~" H 2800 5700 50  0001 C CNN
+F 4 "71-CRCW12061K20JNEB " H 2800 5700 50  0001 C CNN "Mouser Part Number"
 	1    2800 5700
 	0    1    1    0   
 $EndComp
@@ -1015,8 +1058,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 3900 2700 3900
 Wire Wire Line
-	2200 3450 2200 4100
-Wire Wire Line
 	2200 3450 2700 3450
 $Comp
 L debounce_shield-rescue:C-debounce_shield-rescue C8
@@ -1026,6 +1067,9 @@ F 0 "C8" H 6350 2150 50  0000 L CNN
 F 1 "100n" H 6350 1950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6300 2050 60  0001 C CNN
 F 3 "" H 6300 2050 60  0000 C CNN
+F 4 "Wurth Elektronik " H 6300 2050 50  0001 C CNN "Manufacturer_Name"
+F 5 "885012206071 " H 6300 2050 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "710-885012206071 " H 6300 2050 50  0001 C CNN "Mouser Part Number"
 	1    6300 2050
 	0    1    1    0   
 $EndComp
@@ -1212,12 +1256,6 @@ F 3 "~" V 1150 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 4200 1700 4200
-Connection ~ 1700 4200
-Wire Wire Line
-	1350 4100 1700 4100
-Connection ~ 1700 4100
-Wire Wire Line
 	1700 4300 1350 4300
 Connection ~ 1700 4300
 Wire Wire Line
@@ -1374,11 +1412,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 4300 2400 4300
 Wire Wire Line
-	2200 4100 2200 4200
-Wire Wire Line
 	2250 4100 2250 3650
-Wire Wire Line
-	1700 4100 2250 4100
 $Comp
 L YC164-JR-07100RL:YC164-JR-07100RL RN1
 U 1 1 5D099998
@@ -1393,8 +1427,6 @@ F 6 "YAGEO (PHYCOMP)" H 4600 3600 50  0001 L CNN "Manufacturer_Name"
 F 7 "YC164-JR-07100RL" H 4600 3500 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "603-YC164-JR-07100RL" H 4600 3400 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC164-JR-07100RL" H 4600 3300 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 4600 3200 50  0001 L CNN "RS Part Number"
-F 11 "" H 4600 3100 50  0001 L CNN "RS Price/Stock"
 	1    3950 3900
 	1    0    0    1   
 $EndComp
@@ -1416,8 +1448,6 @@ F 6 "YAGEO (PHYCOMP)" H 4600 4500 50  0001 L CNN "Manufacturer_Name"
 F 7 "YC164-JR-07100RL" H 4600 4400 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "603-YC164-JR-07100RL" H 4600 4300 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC164-JR-07100RL" H 4600 4200 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 4600 4100 50  0001 L CNN "RS Part Number"
-F 11 "" H 4600 4000 50  0001 L CNN "RS Price/Stock"
 	1    3950 4800
 	1    0    0    1   
 $EndComp
@@ -1435,8 +1465,6 @@ F 6 "YAGEO (PHYCOMP)" H 4600 5400 50  0001 L CNN "Manufacturer_Name"
 F 7 "YC164-JR-07100RL" H 4600 5300 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "603-YC164-JR-07100RL" H 4600 5200 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC164-JR-07100RL" H 4600 5100 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 4600 5000 50  0001 L CNN "RS Part Number"
-F 11 "" H 4600 4900 50  0001 L CNN "RS Price/Stock"
 	1    3950 5700
 	1    0    0    1   
 $EndComp
@@ -1521,6 +1549,9 @@ F 0 "C9" H 1258 1004 50  0000 R CNN
 F 1 "10uF" H 1258 1095 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1350 1050 50  0001 C CNN
 F 3 "~" H 1350 1050 50  0001 C CNN
+F 4 "963-UMK316BBJ106ML-T " H 1350 1050 50  0001 C CNN "Mouser Part Number"
+F 5 " Taiyo Yuden" H 1350 1050 50  0001 C CNN "Manufacturer_Name"
+F 6 "UMK316BBJ106ML-T " H 1350 1050 50  0001 C CNN "Manufacturer_Part_Number"
 	1    1350 1050
 	1    0    0    -1  
 $EndComp
@@ -1562,8 +1593,6 @@ F 6 "Texas Instruments" H 9600 1150 50  0001 L CNN "Manufacturer_Name"
 F 7 "LM66100DCKR" H 9600 1050 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "595-LM66100DCKR" H 9600 950 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-LM66100DCKR" H 9600 850 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 9600 750 50  0001 L CNN "RS Part Number"
-F 11 "" H 9600 650 50  0001 L CNN "RS Price/Stock"
 	1    8650 1450
 	1    0    0    -1  
 $EndComp
@@ -1573,8 +1602,6 @@ Wire Wire Line
 	2050 1000 2050 1200
 Wire Wire Line
 	2200 1100 2200 1400
-Wire Wire Line
-	2200 1400 3850 1400
 Wire Wire Line
 	3850 1400 3850 1500
 Wire Wire Line
@@ -1589,8 +1616,6 @@ Wire Wire Line
 Connection ~ 3850 1500
 Wire Wire Line
 	3500 1000 3750 1000
-Wire Wire Line
-	3750 1000 3750 1700
 Wire Wire Line
 	3750 1700 3900 1700
 Wire Wire Line
@@ -1685,6 +1710,9 @@ F 0 "C10" H 8100 1600 50  0000 L CNN
 F 1 "100 nF" H 8050 1400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8250 1550 50  0001 C CNN
 F 3 "~" H 8250 1550 50  0001 C CNN
+F 4 "Wurth Elektronik " H 8250 1550 50  0001 C CNN "Manufacturer_Name"
+F 5 "885012206071 " H 8250 1550 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "710-885012206071 " H 8250 1550 50  0001 C CNN "Mouser Part Number"
 	1    8250 1550
 	1    0    0    -1  
 $EndComp
@@ -1709,4 +1737,22 @@ Wire Wire Line
 	2200 900  2150 900 
 Wire Wire Line
 	1100 900  1350 900 
+Wire Wire Line
+	1350 4200 1700 4200
+Wire Wire Line
+	1700 4200 2200 4200
+Connection ~ 1700 4200
+Wire Wire Line
+	2200 4100 2200 4200
+Wire Wire Line
+	2200 3450 2200 4100
+Wire Wire Line
+	1700 4100 2250 4100
+Wire Wire Line
+	1350 4100 1700 4100
+Connection ~ 1700 4100
+Wire Wire Line
+	2200 1400 3850 1400
+Wire Wire Line
+	3750 1000 3750 1700
 $EndSCHEMATC

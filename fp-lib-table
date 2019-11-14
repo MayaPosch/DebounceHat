@@ -8,4 +8,6 @@
   (lib (name RLS-126)(type Legacy)(uri ${KIPRJMOD}/libs/RLS-126/RLS-126.mod)(options "")(descr ""))
   (lib (name RKZE-0505S)(type Legacy)(uri ${KIPRJMOD}/libs/RKZE-0505S/RKZE-0505S.mod)(options "")(descr ""))
   (lib (name LM66100DCKR)(type Legacy)(uri ${KIPRJMOD}/libs/LM66100DCKR/LM66100DCKR.mod)(options "")(descr ""))
+  (lib (name 1990041)(type Legacy)(uri ${KIPRJMOD}/libs/Phoenix_Contact_1990041/1990041.mod)(options "")(descr ""))
+  (lib (name GSL002C-2.50-06P)(type Legacy)(uri ${KIPRJMOD}/libs/gosun_gsl002c-2.50-06p/GSL002C-2.50-06P.mod)(options "")(descr ""))
 )
