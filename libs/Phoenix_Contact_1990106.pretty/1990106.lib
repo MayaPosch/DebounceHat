@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1990106
+#/333454/52150/2.44/12/4/Connector
+DEF 1990106 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "1990106" 750 200 50 H V L CNN
+F2 "1990106" 750 100 50 H I L CNN
+F3 "https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-itemdetail:pid=1990106&library=gben&tab=1#drawings" 750 0 50 H I L CNN
+F4 "PTSA 0,5/12-2,5-Z" 750 -100 50 H I L CNN "Description"
+F5 "13.1" 750 -200 50 H I L CNN "Height"
+F6 "Phoenix Contact" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1990106" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "651-1990106" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=651-1990106" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "6482313" 750 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/6482313" 750 -800 50 H I L CNN "RS Price/Stock"
+F12 "70055058" 750 -900 50 H I L CNN "Allied_Number"
+F13 "https://www.alliedelec.com/phoenixcontact-1990106/70055058/" 750 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 U
+X 3 3 0 -100 200 R 50 50 0 0 U
+X 5 5 0 -200 200 R 50 50 0 0 U
+X 7 7 0 -300 200 R 50 50 0 0 U
+X 9 9 0 -400 200 R 50 50 0 0 U
+X 11 11 0 -500 200 R 50 50 0 0 U
+X 2 2 900 0 200 L 50 50 0 0 U
+X 4 4 900 -100 200 L 50 50 0 0 U
+X 6 6 900 -200 200 L 50 50 0 0 U
+X 8 8 900 -300 200 L 50 50 0 0 U
+X 10 10 900 -400 200 L 50 50 0 0 U
+X 12 12 900 -500 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

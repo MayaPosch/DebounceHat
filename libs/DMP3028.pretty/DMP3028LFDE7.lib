@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# DMP3028LFDE7
+#
+DEF DMP3028LFDE7 Q 0 30 Y Y 1 F N
+F0 "Q" 50 300 50 H V L CNN
+F1 "DMP3028LFDE7" 50 200 50 H V L CNN
+F2 "U-DFN2020-6" 100 -200 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/DMP3028LFDE.pdf" 100 -300 50 H I L CNN
+F4 "MOSFET 30V P-Ch Enh FET 32mOhm -10V -6.8A" 100 -400 50 H I L CNN "Description"
+F5 "Diodes Inc." 100 -600 50 H I L CNN "Manufacturer_Name"
+F6 "DMP3028LFDE7" 100 -700 50 H I L CNN "Manufacturer_Part_Number"
+F7 "621-DMP3028LFDE7" 100 -800 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMP3028LFDE7" 100 -900 50 H I L CNN "Mouser Price/Stock"
+DRAW
+C -70 0 11 1 1 0 F
+C 0 35 111 1 1 10 N
+C 70 0 11 1 1 0 F
+P 2 1 1 0 -70 0 -100 0 N
+P 2 1 1 0 -70 0 0 0 N
+P 2 1 1 0 -70 70 -70 0 N
+P 2 1 1 10 -50 70 -90 70 N
+P 2 1 1 0 0 70 0 0 N
+P 2 1 1 0 0 200 0 90 N
+P 2 1 1 10 20 70 -20 70 N
+P 2 1 1 0 70 70 70 0 N
+P 2 1 1 10 90 70 50 70 N
+P 2 1 1 0 100 0 70 0 N
+P 3 1 1 10 75 90 -75 90 -75 90 N
+P 4 1 1 0 -70 0 -70 -30 70 -30 70 0 N
+P 4 1 1 0 -20 -10 -15 -15 -15 -45 -10 -50 N
+P 4 1 1 0 -15 -30 10 -15 10 -45 -15 -30 N
+P 4 1 1 0 0 10 -15 50 15 50 0 10 F
+X D 1 200 0 100 L 50 50 1 1 P
+X D 2 200 0 100 L 50 50 1 1 P N
+X G 3 0 300 100 D 50 50 1 1 P
+X S 4 -200 0 100 R 50 50 1 1 P
+X D 5 200 0 100 L 50 50 1 1 P N
+X D 6 200 0 100 L 50 50 1 1 P N
+X S 7 -200 0 100 R 50 50 1 1 P N
+X D 8 200 0 100 L 50 50 1 1 P N
+ENDDRAW
+ENDDEF
+#
+#End Library

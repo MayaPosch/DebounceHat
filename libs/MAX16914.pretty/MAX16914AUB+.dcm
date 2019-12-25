@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX16914AUB+
+D Supervisory Circuits Ideal Diode, Reverse-Battery, and Overvoltage Protection Switch/Limiter Controllers with External MOSFE
+F https://www.mouser.com/datasheet/2/256/MAX16914-MAX16915-244836.pdf
+$ENDCMP
+#
+#End Doc Library

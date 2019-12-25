@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MAX16914AUB+
+#
+DEF MAX16914AUB+ IC 0 30 Y Y 1 F N
+F0 "IC" -50 450 50 H V L CNN
+F1 "MAX16914AUB+" -300 350 50 H V L CNN
+F2 "SOP50P490X110-10N" 450 300 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/256/MAX16914-MAX16915-244836.pdf" 450 200 50 H I L CNN
+F4 "Supervisory Circuits Ideal Diode, Reverse-Battery, and Overvoltage Protection Switch/Limiter Controllers with External MOSFE" 450 100 50 H I L CNN "Description"
+F5 "1.1" 450 0 50 H I L CNN "Height"
+F6 "Maxim Integrated" 450 -100 50 H I L CNN "Manufacturer_Name"
+F7 "MAX16914AUB+" 450 -200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "700-MAX16914AUB+" 450 -300 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=700-MAX16914AUB%2B" 450 -400 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 -400 300 400 300 400 -300 -400 -300 -400 300 N
+X VCC 1 -600 200 200 R 50 50 0 0 U
+X GATE2 10 600 200 200 L 50 50 0 0 U
+X GATE1 2 -600 100 200 R 50 50 0 0 U
+X SENSE_IN 3 -600 0 200 R 50 50 0 0 U
+X ~SHDN 4 -600 -100 200 R 50 50 0 0 U
+X ~OV 5 -600 -200 200 R 50 50 0 0 U
+X GND 6 600 -200 200 L 50 50 0 0 U
+X SET 7 600 -100 200 L 50 50 0 0 U
+X TERM 8 600 0 200 L 50 50 0 0 U
+X SENSE_OUT 9 600 100 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+#End Library

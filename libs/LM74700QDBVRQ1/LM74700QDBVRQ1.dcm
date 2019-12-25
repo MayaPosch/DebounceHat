@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM74700QDBVRQ1
+D Low Iq, ideal diode controller
+K
+F https://www.ti.com/lit/gpn/LM74700-Q1
+$ENDCMP
+#
+#End Doc Library

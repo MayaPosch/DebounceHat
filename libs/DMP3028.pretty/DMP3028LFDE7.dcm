@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP3028LFDE7
+D MOSFET 30V P-Ch Enh FET 32mOhm -10V -6.8A
+F https://www.diodes.com/assets/Datasheets/DMP3028LFDE.pdf
+$ENDCMP
+#
+#End Doc Library

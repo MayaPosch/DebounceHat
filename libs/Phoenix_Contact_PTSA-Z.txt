@@ -1,0 +1,59 @@
+please check out the current part libraries from SamacSys at
+https://componentsearchengine.com
+
+The project-related part libraries herein are only a  KiCad-targeted snapshot 
+for consistency. Some libraries have been modified to reflect changes necessary 
+in the scope of the project and should not be copied. The copies will not be 
+maintained beyond the scope of the project.
+
+Phoenix Contact codes		SamacSys direct links (login required)
+
+PTSA 1,5/ 2-3,5-Z - 1985195	https://componentsearchengine.com/part.php?partID=269402
+PTSA 1,5/ 3-3,5-Z - 1985205	https://componentsearchengine.com/part.php?partID=292160
+PTSA 1,5/ 4-3,5-Z - 1985218	https://componentsearchengine.com/part.php?partID=333453
+PTSA 1,5/ 5-3,5-Z - 1985221	https://componentsearchengine.com/part.php?partID=333451
+PTSA 1,5/ 6-3,5-Z - 1985234	https://componentsearchengine.com/part.php?partID=269399
+PTSA 1,5/ 7-3,5-Z - 1985247	https://componentsearchengine.com/part.php?partID=1164982
+PTSA 1,5/ 8-3,5-Z - 1985250	https://componentsearchengine.com/part.php?partID=269400
+PTSA 1,5/ 9-3,5-Z - 1985263	https://componentsearchengine.com/part.php?partID=894788
+PTSA 1,5/10-3,5-Z - 1985276	https://componentsearchengine.com/part.php?partID=269401
+PTSA 1,5/11-3,5-Z - 1985289
+PTSA 1,5/12-3,5-Z - 1985292	https://componentsearchengine.com/part.php?partID=628371
+PTSA 1,5/13-3,5-Z - 1985302	https://componentsearchengine.com/part.php?partID=790899
+PTSA 1,5/14-3,5-Z - 1985315
+PTSA 1,5/15-3,5-Z - 1985328	https://componentsearchengine.com/part.php?partID=859619
+PTSA 1,5/16-3,5-Z - 1985331	https://componentsearchengine.com/part.php?partID=961952
+PTSA 1,5/17-3,5-Z - 1985344
+PTSA 1,5/18-3,5-Z - 1985357	https://componentsearchengine.com/part.php?partID=453612
+PTSA 1,5/19-3,5-Z - 1985360
+PTSA 1,5/20-3,5-Z - 1985373	https://componentsearchengine.com/part.php?partID=453614
+PTSA 1,5/21-3,5-Z - 1985386
+PTSA 1,5/22-3,5-Z - 1985399
+PTSA 1,5/23-3,5-Z - 1985409
+PTSA 1,5/24-3,5-Z - 1985412	https://componentsearchengine.com/part.php?partID=453618
+
+
+
+PTSA 0,5/ 2-2,5-Z - 1990009	https://componentsearchengine.com/part.php?partID=301364 (20191207 warning: wrong pin counting order)
+PTSA 0,5/ 3-2,5-Z - 1990012	https://componentsearchengine.com/part.php?partID=301366
+PTSA 0,5/ 5-2,5-Z - 1985221	https://componentsearchengine.com/part.php?partID=333451
+PTSA 0,5/ 6-2,5-Z - 1990041	https://componentsearchengine.com/part.php?partID=333439
+PTSA 0,5/ 7-2,5-Z - 1990054
+PTSA 0,5/ 8-2,5-Z - 1990067	https://componentsearchengine.com/part.php?partID=628369
+PTSA 0,5/ 9-2,5-Z - 1990070	https://componentsearchengine.com/part.php?partID=963743 (20191207 warning: wrong staggering order)
+PTSA 0,5/10-2,5-Z - 1990083	https://componentsearchengine.com/part.php?partID=628370
+PTSA 0,5/11-2,5-Z - 1990096
+PTSA 0,5/12-2,5-Z - 1990106	https://componentsearchengine.com/part.php?partID=333454 (20191207 hint: footprint ok, what happened to the symbol?)
+PTSA 0,5/13-2,5-Z - 1990119	https://componentsearchengine.com/part.php?partID=2347529 (20191207: pin count fixed, but wrong staggering pattern)
+PTSA 0,5/14-2,5-Z - 1990122	https://componentsearchengine.com/part.php?partID=1342535 (20191207 hint: what happened to the symbol?)
+PTSA 0,5/15-2,5-Z - 1990135
+PTSA 0,5/16-2,5-Z - 1990148	https://componentsearchengine.com/part.php?partID=333450 (20191207 hint: what happened to the symbol?)
+PTSA 0,5/17-2,5-Z - 1990151
+PTSA 0,5/18-2,5-Z - 1990164	https://componentsearchengine.com/part.php?partID=453667 (20191207 hint: what happened to the symbol?)
+PTSA 0,5/19-2,5-Z - 1990177
+PTSA 0,5/20-2,5-Z - 1990180
+PTSA 0,5/21-2,5-Z - 1990193
+PTSA 0,5/22-2,5-Z - 1990203
+PTSA 0,5/23-2,5-Z - 1990229
+PTSA 0,5/24-2,5-Z - 1990232	https://componentsearchengine.com/part.php?partID=306433
+
