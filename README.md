@@ -51,11 +51,11 @@ In the below graphic those pins are marked in yellow (DBH n):
 
 These pins are also marked on the silkscreen of the PCB.
 
-###External power###
+### External power ###
 
 With 5 VDC connected to the four-pole terminal, power is provided to the connected Raspberry Pi board using the GPIO header's 5V pins.
 
-###Inputs###
+### Inputs ###
 
 The inputs are driven with an external voltage in the range of 3 to 12V. With mechanical switches, a circuit has to be formed with the isolated DC header, or with an external power supply.
 
