@@ -1,36 +1,23 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>KiCad BOM Example 5</title>
-    </head>
-    <body>
-    <h1>E:\Projects\debounce_shield\kicad\debounce_shield.sch</h1>
-    <p>2019/03/10 18:09:55</p>
-    <p>Eeschema (5.0.1)-rc2</p>
-    <p><b>Component Count:</b>51</p>
-    <table>
-    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
-    <tr><td>C1, C2, C3, C4, C5, C6, C7, C8</td><td>8</td><td>100n</td><td>debounce_shield-rescue:C-debounce_shield-rescue</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td></td><td></td></tr>
-    <tr><td>D7</td><td>1</td><td>DIODE</td><td>debounce_shield-rescue:DIODE-debounce_shield-rescue</td><td>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td></td><td></td></tr>
-    <tr><td>E1, E2, E3, E4, E5, E6, E7, E8, E9, E10, E11, E12, E13, E14</td><td>14</td><td>SPARK_GAP</td><td>Device:SPARK_GAP</td><td>libs:SG1210</td><td>Spark gap</td><td></td></tr>
-    <tr><td>H1, H2</td><td>2</td><td>MountingHole_Pad</td><td>Mechanical:MountingHole_Pad</td><td>MountingHole:MountingHole_3.5mm_Pad</td><td>Mounting Hole with connection</td><td></td></tr>
-    <tr><td>J1, J3, J4</td><td>3</td><td>Conn_01x06</td><td>Connector_Generic:Conn_01x06</td><td>SamacSys_Parts:GSL002C25006P</td><td>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>J2</td><td>1</td><td>RPi_GPIO</td><td>debounce_shield-rescue:RPi_GPIO-debounce_shield-rescue</td><td>RPi_Hat:Pin_Header_Straight_2x20</td><td></td><td></td></tr>
-    <tr><td>K1</td><td>1</td><td>CONN_3</td><td>debounce_shield-rescue:CONN_3-debounce_shield-rescue</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td></td><td></td></tr>
-    <tr><td>P2</td><td>1</td><td>CONN_2</td><td>debounce_shield-rescue:CONN_2-debounce_shield-rescue</td><td>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</td><td></td><td></td></tr>
-    <tr><td>PS1</td><td>1</td><td>REE-0505S</td><td>debounce_shield-rescue:REE-0505S-SamacSys_Parts</td><td>SamacSys_Parts:REE0505S</td><td></td><td></td></tr>
-    <tr><td>PWR1</td><td>1</td><td>LED</td><td>Device:LED</td><td>LED_SMD:LED_0805_2012Metric</td><td>Light emitting diode</td><td></td></tr>
-    <tr><td>R1, R2, R3</td><td>3</td><td>YC164-JR-0710KL</td><td>debounce_shield-rescue:YC164-JR-0710KL-SamacSys_Parts</td><td>SamacSys_Parts:YC164</td><td></td><td></td></tr>
-    <tr><td>R4, R22, R23, R24, R25, R26, R27</td><td>7</td><td>1.2k</td><td>Device:R_Small</td><td>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
-    <tr><td>R19</td><td>1</td><td>1k</td><td>debounce_shield-rescue:R-debounce_shield-rescue</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td></td><td></td></tr>
-    <tr><td>R20, R21</td><td>2</td><td>3.9k</td><td>debounce_shield-rescue:R-debounce_shield-rescue</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td></td><td></td></tr>
-    <tr><td>U1</td><td>1</td><td>74LVT04</td><td>debounce_shield-rescue:40106-debounce_shield-rescue</td><td>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</td><td></td><td></td></tr>
-    <tr><td>U2</td><td>1</td><td>CAT24C32</td><td>debounce_shield-rescue:CAT24C32-debounce_shield-rescue</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td></td><td></td></tr>
-    <tr><td>U3, U4, U5</td><td>3</td><td>LTV-824</td><td>Isolator:LTV-824</td><td>Package_DIP:DIP-8_W7.62mm</td><td>Dual AC/DC Optocoupler, Vce 35V, CTR 20%, DIP8</td><td></td></tr><!--TABLEROW-->
-    </table>
-    </body>
-</html>
-    
+Reference, Quantity, Value, Footprint, Datasheet, Manufacturer_Name, Manufacturer_Part_Number, Mouser Part Number, Description, Height, Mouser Price/Stock, RS Part Number, RS Price/Stock
+C5 C4 C6 C3 C2 C1 C13 C12 C7 ,9,"100 nF","Capacitor_SMD:C_0603_1608Metric","","Wurth Elektronik ","885012206071 ","710-885012206071 ","","","","",""
+C9 C11 ,2,"10uF","Capacitor_SMD:C_1206_3216Metric","~"," Taiyo Yuden","UMK316BBJ106ML-T ","963-UMK316BBJ106ML-T ","","","","",""
+D6 D5 D4 D3 D1 D2 ,6,"D_TVS","Diode_SMD:D_SOD-123","https://eu.mouser.com/datasheet/2/80/ATV02W-HF_series_RevC-1480797.pdf","Comchip","ATV02W110B-HF ","750-ATV02W110B-HF ","","","","",""
+D7 ,1,"D_TVS","Diode_SMD:D_SMB","https://eu.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_P6SMB_Datasheet.pdf-365562.pdf","Littelfuse","P6SMB24CA ","576-P6SMB24CA ","","","","",""
+H1 ,1,"MountingHole_Pad","MountingHole:MountingHole_3.5mm_Pad","~"
+IC6 IC5 IC4 IC3 IC2 IC1 ,6,"LTV-814","Package_DIP:DIP-4_W7.62mm","","Lite-On","LTV-814 ","859-LTV-814 ","","","","",""
+IC7 ,1,"MAX16914AUB+","MAX16914AUB+:SOP50P490X110-10N","https://www.mouser.com/datasheet/2/256/MAX16914-MAX16915-244836.pdf","Maxim Integrated","MAX16914AUB+","700-MAX16914AUB+","Supervisory Circuits Ideal Diode, Reverse-Battery, and Overvoltage Protection Switch/Limiter Controllers with External MOSFE","1.1","https://www.mouser.com/Search/Refine.aspx?Keyword=700-MAX16914AUB%2B","",""
+J1 J4 J3 ,3,"Conn_01x06","Phoenix_Contact_1990041:1990041","~","Phoenix Contact","1990041 ","651-1990041 ","","","","",""
+J2 ,1,"RPi_GPIO","RPi_Hat:Pin_Header_Straight_2x20","","Samtec","ESQ-120-24-T-D ","200-ESQ12024TD ","","","","",""
+J5 ,1,"Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~","Samtec","HMTSW-102-07-T-S-180 ","200-HMTSW10207TS180 ","","","","",""
+J6 ,1,"1985218","Phoenix_Contact_1985218:1985218","https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-itemdetail:pid=1985218&library=gben&tab=1rchengine.com/Datasheets/1/1985218.pdf","Phoenix Contact","1985218","651-1985218","Fixed Terminal Blocks PTSA 1.5/4-3.5-Z","13.1","https://www.mouser.com/Search/Refine.aspx?Keyword=651-1985218","6482458","http://uk.rs-online.com/web/p/products/6482458"
+J7 ,1,"1285","Keystone_1285:1285","https://componentsearchengine.com/Datasheets/1/1285.pdf","Keystone Electronics","1285","534-1285","Terminals TERMINAL .187X.020","8.89","https://www.mouser.com/Search/Refine.aspx?Keyword=534-1285","",""
+L1 ,1,"RLS-126","RLS-126:RLS126","https://www.recom-power.com/pdf/Accessories/RLS-126.pdf","RECOM Power","RLS-126","919-RLS-126","Fixed Inductors Line Inductors for RECOM Power Supply","2.6","https://www.mouser.com/Search/Refine.aspx?Keyword=919-RLS-126","1855855","http://uk.rs-online.com/web/p/products/1855855"
+PS1 ,1,"RKZE-0505S","RKZE-0505S:RKZE0512SHP","https://www.recom-power.com/pdf/Econoline/RKZE.pdf","RECOM Power","RKZE-0505S","919-RKZE-0505S","DC/DC Converter Isolated 5V to 5V out 1W","10.45","https://www.mouser.com/Search/Refine.aspx?Keyword=919-RKZE-0505S","1809313P","http://uk.rs-online.com/web/p/products/1809313P"
+PWR1 OVP1 ,2,"LED","LED_SMD:LED_0805_2012Metric","~","Kingbright","AP2012HD ","604-AP2012HD ","","","","",""
+Q2 Q1 ,2,"DMP3028LFDE7","DMP2066UFDE7:U-DFN2020-6","https://www.diodes.com/assets/Datasheets/DMP3028LFDE.pdf","Diodes Inc.","DMP3028LFDE-7","621-DMP3028LFDE-7","MOSFET 30V P-Ch Enh FET 32mOhm -10V -6.8A","","https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMP3028LFDE-7","",""
+R2 R3 R1 R8 ,4,"3.9k","Resistor_SMD:R_0603_1608Metric","","Yageo","AC0603FR-133K9L ","603-AC0603FR-133K9L ","","","","",""
+R25 R22 R21 R23 R24 R26 R16 R15 R14 R13 R11 R12 ,12,"1k","Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder","~","Vishay/Dale","CRCW12061K20JNEB ","71-CRCW12061K20JNEB ","","","","",""
+R4 R5 R6 R7 ,4,"1k","Resistor_SMD:R_0603_1608Metric","","Vishay/Dale","CRCW06031K00FKEAC ","71-CRCW06031K00FKEAC ","","","","",""
+RN1 RN2 RN3 ,3,"R_Pack04","Resistor_SMD:R_Array_Convex_4x0603","https://eu.mouser.com/datasheet/2/447/PYu-YC_TC_group_51_RoHS_L_7-1313905.pdf","YAGEO (PHYCOMP)","YC164-JR-0747KL ","603-YC164-JR-0747KL ","YAGEO - Resistor Networks & Arrays 47K Ohm 5% 1/16W 50 Volts ","","https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC164-JR-07100RL","",""
+U1 ,1,"74LV14D","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","https://assets.nexperia.com/documents/data-sheet/74LV14.pdf","Nexperia","74LV14D,112 ","771-LV14D112 ","","","","",""
+U2 ,1,"CAT24C32","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","","ON","CAT24C32WI-GT3 ","698-CAT24C32WI-GT3 ","","","","",""
