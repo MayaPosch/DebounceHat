@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 92)
+    (drawings 94)
     (tracks 532)
     (zones 0)
     (modules 75)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.13)
     (user_trace_width 0.25)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
@@ -1087,13 +1087,13 @@
     (descr 1985218_1)
     (tags Connector)
     (path /5E789C54)
-    (fp_text reference J6 (at 4.5 3.7 90) (layer F.SilkS)
+    (fp_text reference J6 (at 3.964 0.3684 90) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
     (fp_text value 1985218 (at 4.5 3.7 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
-    (fp_text user %R (at 4.5 3.7 90) (layer F.Fab)
+    (fp_text user %R (at 6.1992 6.82 90) (layer F.Fab)
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
     (fp_line (start 12.25 -2.3) (end -3.25 -2.3) (layer F.Fab) (width 0.2))
@@ -3678,6 +3678,8 @@
       (solder_mask_margin 0.25) (clearance 0.25))
   )
 
+  (gr_poly (pts (xy 150.7236 103.7844) (xy 159.2072 103.7844) (xy 159.2072 119.0244) (xy 150.8252 119.1768) (xy 150.622 103.9368)) (layer F.SilkS) (width 0.1) (tstamp 5E08980D))
+  (gr_poly (pts (xy 159.1564 84.328) (xy 150.6728 84.328) (xy 150.6728 100.0252) (xy 159.1564 100.076) (xy 159.258 84.328)) (layer F.SilkS) (width 0.1))
   (gr_text GND (at 130.048 76.0984) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
