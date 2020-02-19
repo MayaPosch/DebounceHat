@@ -12,7 +12,7 @@ A project page for this board along with ordering information can be found on th
 **Features:**
   
 
--  6 input channels (grouped as 3 pairs).
+-  6 input channels (grouped as 6 individual pairs).
 -  Uncommitted inputs (100V channel-to-channel isolation).
 -  2 kV AC isolation between pairs (connector limited).
 -  5 kV AC (8kV HBM) opto-isolation to SBC logic.
@@ -32,7 +32,7 @@ A project page for this board along with ordering information can be found on th
 -  Isolated DC voltage sensing.
 
   
-See the HTML BOM for the values of the individual passive components. The 74LVT04 is in SOIC-14 form factor, the CAT24C32 EEPROM IC in SOIC-8. The LTV-824 optocouplers are in PDIP format.
+See the HTML BOM for the values of the individual passive components. The 74LVT04 is in SOIC-14 form factor, the CAT24C32 EEPROM IC in SOIC-8. The LTV-814 optocouplers are in PDIP format.
 
 ## GPIO ##
 
