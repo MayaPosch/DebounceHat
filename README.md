@@ -9,20 +9,26 @@ All inputs accept 3 - 12V with arbitrary polarity and can alternatively be conne
 
 A project page for this board along with ordering information can be found on the [Nyantronics site](http://www.nyantronics.com/debounce_hat.php "Debounce HAT on Nyantronics site").
 
-**Features:**
-  
+**Electrical Specifications:**
 
--  6 input channels (grouped as 6 individual pairs).
--  Uncommitted inputs (100V channel-to-channel isolation).
--  2 kV AC isolation between pairs (connector limited).
--  5 kV AC (8kV HBM) opto-isolation to SBC logic.
--  4 kV DC isolated 5V 200 mA supply (DCDC converter limited).
--  Mounting points for earth connection.
--  Spark gap overvoltage protection on all isolated connections.
--  2.5 mm spring terminals for 0.2-1.0 mm² wires (22-16 AWG).
--  16 mm PCB height with connectors.
--  2.5 mm spring terminal for 5V/3A input for 0.2-1.0 mm² wires (22-16 AWG).
--  Raspberry Pi-compatible mounting hole pattern.
+-  6  opto-isolated, uncommitted inputs accepting +/- 3..24 V,  with transient voltage protection.
+-  Isolated DCDC for 5V 400mA supply for sensors and switches (4 kV DC isolation rating).
+-  8 A rated power terminals for easy 5 V supply to additional devices.
+-  Active input protection with reverse and overvoltage protection (configured for 5.9 V cut-out).
+-  Ideal diode voltage drop below 200 mV at 3 A.
+-  >2.4 mm clearance between logic and isolated sides (PE floating).
+-  Spark gaps between input pairs.
+-  Spark gaps between input pins and PE.
+-  Spark gaps between isolated power and PE.
+-  Marked pins for input testing.
+
+**Mechanical Specifications:**
+
+- 16 mm PCB stacking height (defined by 2x20 pin 0.1" header).
+- Raspberry Pi - compatible mounting hole pattern.
+- PE connection via 4.8 mm spade connector and M3 mounting point.
+- 3.5 mm pitch terminal block for power in / pass-through (ø 0.2-1.5 mm² / 24-16 AWG).
+- 2.5 mm pitch terminal blocks for isolated power and signal (ø 0.2-1.0mm² / 22-16 AWG).
   
 **Typical Applications:**
 
@@ -32,7 +38,7 @@ A project page for this board along with ordering information can be found on th
 -  Isolated DC voltage sensing.
 
   
-See the HTML BOM for the values of the individual passive components. The 74LVT04 is in SOIC-14 form factor, the CAT24C32 EEPROM IC in SOIC-8. The LTV-814 optocouplers are in PDIP format.
+See the BOM for the values of the individual passive components. The 74LVT04 is in SOIC-14 form factor, the CAT24C32 EEPROM IC in SOIC-8. The LTV-814 optocouplers are in PDIP format.
 
 ## GPIO ##
 
