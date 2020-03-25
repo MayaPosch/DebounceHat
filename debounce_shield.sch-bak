@@ -38,9 +38,9 @@ F 0 "U1" H 6700 3600 50  0000 L CNN
 F 1 "74LV14D" H 6650 3300 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6600 3450 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LV14.pdf" H 6600 3450 60  0001 C CNN
-F 4 "771-LV14D112 " H 6600 3450 50  0001 C CNN "Mouser Part Number"
+F 4 "771-74LV14D-T " H 6600 3450 50  0001 C CNN "Mouser Part Number"
 F 5 "Nexperia" H 6600 3450 50  0001 C CNN "Manufacturer_Name"
-F 6 "74LV14D,112 " H 6600 3450 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "74LV14D,118 " H 6600 3450 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6600 3450
 	1    0    0    -1  
 $EndComp
@@ -52,9 +52,9 @@ F 0 "U1" H 6700 4500 50  0000 L CNN
 F 1 "74LV14D" H 6650 4200 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6600 4350 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LV14.pdf" H 6600 4350 60  0001 C CNN
-F 4 "771-LV14D112 " H 6600 4350 50  0001 C CNN "Mouser Part Number"
+F 4 "771-74LV14D-T " H 6600 4350 50  0001 C CNN "Mouser Part Number"
 F 5 "Nexperia" H 6600 4350 50  0001 C CNN "Manufacturer_Name"
-F 6 "74LV14D,112 " H 6600 4350 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "74LV14D,118 " H 6600 4350 50  0001 C CNN "Manufacturer_Part_Number"
 	2    6600 4350
 	1    0    0    -1  
 $EndComp
@@ -66,9 +66,9 @@ F 0 "U1" H 6700 5850 50  0000 L CNN
 F 1 "74LV14D" H 6650 5550 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6600 5700 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LV14.pdf" H 6600 5700 60  0001 C CNN
-F 4 "771-LV14D112 " H 6600 5700 50  0001 C CNN "Mouser Part Number"
+F 4 "771-74LV14D-T " H 6600 5700 50  0001 C CNN "Mouser Part Number"
 F 5 "Nexperia" H 6600 5700 50  0001 C CNN "Manufacturer_Name"
-F 6 "74LV14D,112 " H 6600 5700 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "74LV14D,118 " H 6600 5700 50  0001 C CNN "Manufacturer_Part_Number"
 	3    6600 5700
 	1    0    0    -1  
 $EndComp
@@ -80,9 +80,9 @@ F 0 "U1" H 6700 4950 50  0000 L CNN
 F 1 "74LV14D" H 6650 4650 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6600 4800 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LV14.pdf" H 6600 4800 60  0001 C CNN
-F 4 "771-LV14D112 " H 6600 4800 50  0001 C CNN "Mouser Part Number"
+F 4 "771-74LV14D-T " H 6600 4800 50  0001 C CNN "Mouser Part Number"
 F 5 "Nexperia" H 6600 4800 50  0001 C CNN "Manufacturer_Name"
-F 6 "74LV14D,112 " H 6600 4800 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "74LV14D,118 " H 6600 4800 50  0001 C CNN "Manufacturer_Part_Number"
 	5    6600 4800
 	1    0    0    -1  
 $EndComp
@@ -94,9 +94,9 @@ F 0 "U1" H 6700 4050 50  0000 L CNN
 F 1 "74LV14D" H 6650 3750 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6600 3900 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LV14.pdf" H 6600 3900 60  0001 C CNN
-F 4 "771-LV14D112 " H 6600 3900 50  0001 C CNN "Mouser Part Number"
+F 4 "771-74LV14D-T " H 6600 3900 50  0001 C CNN "Mouser Part Number"
 F 5 "Nexperia" H 6600 3900 50  0001 C CNN "Manufacturer_Name"
-F 6 "74LV14D,112 " H 6600 3900 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "74LV14D,118 " H 6600 3900 50  0001 C CNN "Manufacturer_Part_Number"
 	6    6600 3900
 	1    0    0    -1  
 $EndComp
@@ -381,9 +381,9 @@ F 0 "U1" H 6700 5400 50  0000 L CNN
 F 1 "74LV14D" H 6650 5100 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6600 5250 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LV14.pdf" H 6600 5250 60  0001 C CNN
-F 4 "771-LV14D112 " H 6600 5250 50  0001 C CNN "Mouser Part Number"
+F 4 "771-74LV14D-T " H 6600 5250 50  0001 C CNN "Mouser Part Number"
 F 5 "Nexperia" H 6600 5250 50  0001 C CNN "Manufacturer_Name"
-F 6 "74LV14D,112 " H 6600 5250 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "74LV14D,118 " H 6600 5250 50  0001 C CNN "Manufacturer_Part_Number"
 	4    6600 5250
 	1    0    0    -1  
 $EndComp

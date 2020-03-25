@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:debounce_shield-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1510,10 +1510,10 @@ F 6 "UMK316BBJ106ML-T " H 5300 1350 50  0001 C CNN "Manufacturer_Part_Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_Pack04 RN1
+L Device:R_Pack04 RN56
 U 1 1 5E097139
 P 4550 3700
-F 0 "RN1" V 4875 3700 50  0000 C CNN
+F 0 "RN56" V 4875 3700 50  0000 C CNN
 F 1 "R_Pack04" V 4784 3700 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4825 3700 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/447/PYu-YC_TC_group_51_RoHS_L_7-1313905.pdf" H 4550 3700 50  0001 C CNN
@@ -1527,38 +1527,6 @@ F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC164-JR-07100RL" H 4
 $EndComp
 Text Notes 4050 3300 0    50   ~ 0
 YC164-JR-0747KL 
-$Comp
-L Device:R_Pack04 RN2
-U 1 1 5E09E7B2
-P 4550 4600
-F 0 "RN2" V 4875 4600 50  0000 C CNN
-F 1 "R_Pack04" V 4784 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4825 4600 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/447/PYu-YC_TC_group_51_RoHS_L_7-1313905.pdf" H 4550 4600 50  0001 C CNN
-F 4 "YAGEO - Resistor Networks & Arrays 47K Ohm 5% 1/16W 50 Volts " H 4550 4600 50  0001 C CNN "Description"
-F 5 "YAGEO (PHYCOMP)" H 4550 4600 50  0001 C CNN "Manufacturer_Name"
-F 6 "YC164-JR-0747KL " H 4550 4600 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "603-YC164-JR-0747KL " H 4550 4600 50  0001 C CNN "Mouser Part Number"
-F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC164-JR-07100RL" H 4550 4600 50  0001 C CNN "Mouser Price/Stock"
-	1    4550 4600
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN3
-U 1 1 5E09F4B1
-P 4550 5500
-F 0 "RN3" V 4875 5500 50  0000 C CNN
-F 1 "R_Pack04" V 4784 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4825 5500 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/447/PYu-YC_TC_group_51_RoHS_L_7-1313905.pdf" H 4550 5500 50  0001 C CNN
-F 4 "YAGEO - Resistor Networks & Arrays 47K Ohm 5% 1/16W 50 Volts " H 4550 5500 50  0001 C CNN "Description"
-F 5 "YAGEO (PHYCOMP)" H 4550 5500 50  0001 C CNN "Manufacturer_Name"
-F 6 "YC164-JR-0747KL " H 4550 5500 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "603-YC164-JR-0747KL " H 4550 5500 50  0001 C CNN "Mouser Part Number"
-F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC164-JR-07100RL" H 4550 5500 50  0001 C CNN "Mouser Price/Stock"
-	1    4550 5500
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	2600 4100 2650 4100
 Wire Wire Line
@@ -2073,4 +2041,36 @@ Wire Wire Line
 	1950 2350 2100 2350
 Wire Wire Line
 	2300 2350 2450 2350
+$Comp
+L Device:R_Pack04 RN34
+U 1 1 5E09E7B2
+P 4550 4600
+F 0 "RN34" V 4875 4600 50  0000 C CNN
+F 1 "R_Pack04" V 4784 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4825 4600 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/447/PYu-YC_TC_group_51_RoHS_L_7-1313905.pdf" H 4550 4600 50  0001 C CNN
+F 4 "YAGEO - Resistor Networks & Arrays 47K Ohm 5% 1/16W 50 Volts " H 4550 4600 50  0001 C CNN "Description"
+F 5 "YAGEO (PHYCOMP)" H 4550 4600 50  0001 C CNN "Manufacturer_Name"
+F 6 "YC164-JR-0747KL " H 4550 4600 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "603-YC164-JR-0747KL " H 4550 4600 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC164-JR-07100RL" H 4550 4600 50  0001 C CNN "Mouser Price/Stock"
+	1    4550 4600
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN12
+U 1 1 5E09F4B1
+P 4550 5500
+F 0 "RN12" V 4875 5500 50  0000 C CNN
+F 1 "R_Pack04" V 4784 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4825 5500 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/447/PYu-YC_TC_group_51_RoHS_L_7-1313905.pdf" H 4550 5500 50  0001 C CNN
+F 4 "YAGEO - Resistor Networks & Arrays 47K Ohm 5% 1/16W 50 Volts " H 4550 5500 50  0001 C CNN "Description"
+F 5 "YAGEO (PHYCOMP)" H 4550 5500 50  0001 C CNN "Manufacturer_Name"
+F 6 "YC164-JR-0747KL " H 4550 5500 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "603-YC164-JR-0747KL " H 4550 5500 50  0001 C CNN "Mouser Part Number"
+F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC164-JR-07100RL" H 4550 5500 50  0001 C CNN "Mouser Price/Stock"
+	1    4550 5500
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC
