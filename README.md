@@ -63,7 +63,7 @@ With 5 VDC connected to the four-pole terminal, power is provided to the connect
 
 ### Inputs ###
 
-The inputs are driven with an external voltage in the range of 3 to 12V. With mechanical switches, a circuit has to be formed with the isolated DC header, or with an external power supply.
+The inputs are driven with an external voltage in the range of 3 to 24V. With mechanical switches, a circuit has to be formed with the isolated DC header, or with an external power supply.
 
 
 ## Notice ##
