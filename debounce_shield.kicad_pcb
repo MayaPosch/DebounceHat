@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 83)
+    (drawings 89)
     (tracks 577)
     (zones 0)
     (modules 80)
@@ -18,7 +18,7 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -3863,6 +3863,12 @@
     )
   )
 
+  (gr_line (start 130.302 76.6572) (end 130.3147 78.6257) (layer F.SilkS) (width 0.15) (tstamp 5E9E4130))
+  (gr_line (start 142.367 73.5584) (end 142.4051 78.6003) (layer F.SilkS) (width 0.15))
+  (gr_line (start 130.3147 73.5457) (end 130.3147 75.4253) (layer F.SilkS) (width 0.15))
+  (gr_line (start 117.1194 73.5584) (end 117.1194 78.613) (layer F.SilkS) (width 0.15))
+  (gr_line (start 130.3274 73.2536) (end 142.3924 73.2282) (layer F.SilkS) (width 0.15))
+  (gr_line (start 104.5464 73.2155) (end 117.2083 73.2155) (layer F.SilkS) (width 0.15))
   (gr_poly (pts (xy 129.2 116.3) (xy 129.35 116.45) (xy 129.5 116.3) (xy 129.35 116.15)) (layer B.Mask) (width 0.5) (tstamp 5E95F01A))
   (gr_poly (pts (xy 129.3 118.8) (xy 129.45 118.95) (xy 129.6 118.8) (xy 129.45 118.65)) (layer B.Mask) (width 0.5) (tstamp 5E95F00B))
   (gr_poly (pts (xy 129.25 116.2) (xy 129.25 116.4) (xy 129.45 116.4) (xy 129.45 116.2)) (layer F.Mask) (width 0.5) (tstamp 5E95F00B))
