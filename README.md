@@ -1,8 +1,8 @@
 # Debounce HAT for Raspberry Pi #
 
-![Debounce HAT](debounce_hat_rev1_3_002.jpg)
+![Debounce HAT](debounce_hat_rev1_3_003.jpg)
 
-![Debounce HAT back](debounce_hat_rev1_3_002a.jpg)
+![Debounce HAT back](debounce_hat_rev1_3_003a.jpg)
 
 The Debounce Hat provides six channels of opto-isolated, debounced digital inputs to a Raspberry Pi-compatible single board computer (SBC).
 All inputs accept 3 - 24V with arbitrary polarity and can alternatively be connected to open-collector outputs or mechanical switches leveraging the on-board isolated 5V supply.
