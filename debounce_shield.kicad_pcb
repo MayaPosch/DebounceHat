@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-2")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
     (thickness 1.6)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.13)
     (user_trace_width 0.25)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
@@ -3927,7 +3927,7 @@
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5516AE26)
-    (fp_text reference J2 (at -3.3648 -23.8106) (layer F.SilkS)
+    (fp_text reference J2 (at -3.6962 -24.7657) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RPi_GPIO (at -1.27 -27.23 90) (layer F.Fab)
@@ -4273,11 +4273,6 @@
   (gr_line (start 100.5106 128.5852) (end 159.5106 128.5852) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 162.5106 75.5852) (end 162.5106 125.5852) (angle 90) (layer Edge.Cuts) (width 0.1))
 
-  (segment (start 140.2 79.7) (end 139 79.7) (width 0.3) (layer F.Cu) (net 7))
-  (segment (start 139 79.7) (end 135.8 82.9) (width 0.3) (layer F.Cu) (net 7))
-  (segment (start 135.8 82.9) (end 135.3 83.4) (width 0.3) (layer F.Cu) (net 7))
-  (segment (start 135.3 83.4) (end 135.3 85.1) (width 0.3) (layer F.Cu) (net 7))
-  (segment (start 135.3 85.1) (end 134.7 85.7) (width 0.3) (layer F.Cu) (net 7))
   (via (at 124.900008 79) (size 0.65) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (segment (start 124.440389 79) (end 124.900008 79) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 120.2254 79) (end 124.440389 79) (width 0.25) (layer B.Cu) (net 1))
@@ -4336,6 +4331,11 @@
   (segment (start 125.662299 90.45) (end 136.912299 79.2) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 121.674996 91.125002) (end 122.349998 90.45) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 122.349998 90.45) (end 125.662299 90.45) (width 0.25) (layer B.Cu) (net 6))
+  (segment (start 140.2 79.7) (end 139 79.7) (width 0.3) (layer F.Cu) (net 7))
+  (segment (start 139 79.7) (end 135.8 82.9) (width 0.3) (layer F.Cu) (net 7))
+  (segment (start 135.8 82.9) (end 135.3 83.4) (width 0.3) (layer F.Cu) (net 7))
+  (segment (start 135.3 83.4) (end 135.3 85.1) (width 0.3) (layer F.Cu) (net 7))
+  (segment (start 135.3 85.1) (end 134.7 85.7) (width 0.3) (layer F.Cu) (net 7))
   (via (at 129.35 116.3) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 7) (tstamp 5E95ED26))
   (via (at 129.45 118.8) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 7))
   (segment (start 129.35 118.7) (end 129.35 116.3) (width 0.3) (layer F.Cu) (net 7))
