@@ -4066,7 +4066,7 @@
   (gr_line (start 142.7 73.5581) (end 142.7 78.6) (layer F.SilkS) (width 0.15))
   (gr_line (start 130.0147 73.5457) (end 130.0147 75.4253) (layer F.SilkS) (width 0.15))
   (gr_line (start 117.3 73.5454) (end 117.3 78.6) (layer F.SilkS) (width 0.15) (tstamp 5E9E5227))
-  (gr_line (start 130.3274 73.2536) (end 142.3924 73.2282) (layer F.SilkS) (width 0.15))
+  (gr_line (start 130.3274 73.2536) (end 142.3416 73.2536) (layer F.SilkS) (width 0.15) (tstamp 5E9E9230))
   (gr_line (start 104.5464 73.2155) (end 117.2083 73.2155) (layer F.SilkS) (width 0.15))
   (gr_poly (pts (xy 129.2 116.3) (xy 129.35 116.45) (xy 129.5 116.3) (xy 129.35 116.15)) (layer B.Mask) (width 0.5) (tstamp 5E95F01A))
   (gr_poly (pts (xy 129.3 118.8) (xy 129.45 118.95) (xy 129.6 118.8) (xy 129.45 118.65)) (layer B.Mask) (width 0.5) (tstamp 5E95F00B))
